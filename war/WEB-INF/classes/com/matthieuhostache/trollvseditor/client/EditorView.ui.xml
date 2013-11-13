@@ -1,0 +1,95 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+	</ui:style>
+	<g:HTMLPanel>
+        <g:HorizontalPanel horizontalAlignment="ALIGN_CENTER" width="1164px" height="651px">
+        	<g:Cell horizontalAlignment="ALIGN_CENTER">
+        		<g:FormPanel height="611px" width="811px" ui:field="formPanel">
+        	<g:VerticalPanel width="805px" height="591px" horizontalAlignment="ALIGN_CENTER">
+        		<g:HorizontalPanel>
+        			<g:VerticalPanel width="256px" height="540px" horizontalAlignment="ALIGN_CENTER"> 
+                    <g:Label text="Nom du Troll" width="106px" height="13px">nom du troll</g:Label>   
+                    <g:TextBox ui:field="name" width="132px" height="29px"  />
+                    <g:Label text="Race :"/>
+                    <g:ListBox ui:field="race" visibleItemCount="1" width="260px">  
+						<g:item value='1'>
+						  Skrim : Botte Secrète et Hypnotisme
+						</g:item>
+						<g:item value='2'>
+						  Kastar : Accélération Métabolique et Accélération Métabolique
+						</g:item> 
+						<g:item value='3'>
+							Durakuir : Régénération Accrue et Rafale Psychique
+						</g:item>
+						<g:item value='4'>
+							Tomawak : Camouflage et Projectile Magique
+						</g:item>
+						<g:item value='5'>
+							Darkling : Balayage et Siphon des âmes
+						</g:item>
+					</g:ListBox>
+                    <g:Label text="Attaque"/>
+                    <g:HorizontalPanel>
+                    	<g:Button text="-" width="40px" ui:field="attaquem"/>
+                    	<g:IntegerBox ui:field="attaque" width="50px" value="0" alignment="CENTER" enabled="false"/>
+                    	<g:Button text="+" width="40px" ui:field="attaquep"/>
+                    </g:HorizontalPanel>
+                    <g:Label text="Degats"/>
+                    <g:HorizontalPanel>
+                    	<g:Button text="-" width="40px" ui:field="degatsm"/>
+                    	<g:IntegerBox ui:field="degats" width="50px" value="0" alignment="CENTER" enabled="false"/>
+                    	<g:Button text="+" width="40px" ui:field="degatsp"/>
+                    </g:HorizontalPanel>
+                    <g:Label text="Esquive"/>
+                    <g:HorizontalPanel>
+                    	<g:Button text="-" width="40px" ui:field="esquivem"/>
+                    	<g:IntegerBox ui:field="esquive" width="50px" value="0" alignment="CENTER" enabled="false"/>
+                    	<g:Button text="+" width="40px" ui:field="esquivep"/>
+                    </g:HorizontalPanel>
+                    <g:Label text="Regeneration"/>
+                    <g:HorizontalPanel>
+                    	<g:Button text="-" width="40px" ui:field="regenerationm"/>
+                    	<g:IntegerBox ui:field="regeneration" width="50px" value="0" alignment="CENTER" enabled="false"/>
+                    	<g:Button text="+" width="40px" ui:field="regenerationp"/>
+                    </g:HorizontalPanel>
+                    <g:Label text="Points de vie"/>
+                    <g:HorizontalPanel>
+                    	<g:Button text="-" width="40px" ui:field="pointdeviem"/>
+                    	<g:IntegerBox ui:field="pointdevie" width="50px" value="0" alignment="CENTER" enabled="false"/>
+                    	<g:Button text="+" width="40px" ui:field="pointdeviep"/>
+                    </g:HorizontalPanel>  
+
+				</g:VerticalPanel>
+        			<g:VerticalPanel horizontalAlignment="ALIGN_CENTER">
+        			<g:Image ui:field="pic" url="img/hebus.jpg" width="200px" height=""/>
+        			<g:Label text="Compétence 1" ui:field="compet1name"/>
+        			<g:HorizontalPanel>
+        				<g:Button text="-" width="40px" ui:field="compet1m"/>
+        				<g:IntegerBox alignment="CENTER" enabled="false" value="0" width="50px" ui:field="compet1"/>
+        				<g:Button text="+" width="40px" ui:field="compet1p"/>
+        			</g:HorizontalPanel>
+        			<g:Label text="Compétence 2" ui:field="compet2name"/>
+        			<g:HorizontalPanel>
+        				<g:Button text="-" width="40px" ui:field="compet2m"/>
+        				<g:IntegerBox alignment="CENTER" enabled="false" value="0" width="50px" ui:field="compet2"/>
+        				<g:Button text="+" width="40px" ui:field="compet2p"/>
+        			</g:HorizontalPanel>
+        		</g:VerticalPanel>
+        			<p1:CellList ui:field="cellList"/>
+        		</g:HorizontalPanel>
+        		<g:HorizontalPanel>
+                    	<g:Button height="34px" width="75px" text="Ajouter" ui:field="addtroll"/>
+                    	<g:Button text="Enregistrer" ui:field="savetrolls" height="35px"/>
+                    </g:HorizontalPanel>
+        	</g:VerticalPanel>
+        </g:FormPanel>
+        	</g:Cell>
+        </g:HorizontalPanel>  
+ 
+    </g:HTMLPanel>
+</ui:UiBinder> 
