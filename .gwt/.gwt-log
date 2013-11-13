@@ -7561,3 +7561,1341 @@ Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinde
       Compiling...
          Compilation completed in 0,00 seconds
       Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2727 cached/archived units.  Used 2727 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,02 seconds
+Invalid Unit: com.matthieuhostache.trollvseditor.client.HomeView
+Invalid units found: 1
+Compiling...
+   Compilation completed in 0,01 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379481309.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379481309.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379481309_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379481597.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379481597.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379481597_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379603149.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379603149.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379603149_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.DataGrid.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method dataGridLoading
+         Adding image 'com.google.gwt.user.cellview.client.DataGrid.Resources.dataGridLoading'
+      Preparing method dataGridSortAscending
+         Adding image 'com.google.gwt.user.cellview.client.DataGrid.Resources.dataGridSortAscending'
+      Preparing method dataGridSortDescending
+         Adding image 'com.google.gwt.user.cellview.client.DataGrid.Resources.dataGridSortDescending'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+         Generating method body for image()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.AbstractCellTable.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.cellview.client.AbstractCellTable.Template
+         Generating method body for div()
+         Generating method body for tbody()
+         Generating method body for td()
+         Generating method body for tdBothAlign()
+         Generating method body for tdHorizontalAlign()
+         Generating method body for tdVerticalAlign()
+         Generating method body for tfoot()
+         Generating method body for thead()
+         Generating method body for tr()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.CustomScrollPanel.Resources
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.resources.client.CommonResources.Bundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar.ResourcesTransparant
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar.NativeHorizontalScrollbarUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar_NativeHorizontalScrollbarUiBinderImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.NativeHorizontalScrollbar_NativeHorizontalScrollbarUiBinderImpl.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar_NativeHorizontalScrollbarUiBinderImpl_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar.ResourcesTransparant
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar.NativeVerticalScrollbarUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar_NativeVerticalScrollbarUiBinderImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.NativeVerticalScrollbar_NativeVerticalScrollbarUiBinderImpl.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar_NativeVerticalScrollbarUiBinderImpl_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379608206.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379608206.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379608206_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379625812.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379625812.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379625812_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379629416.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379629416.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379629416_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379634535.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379634535.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379634535_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379640083.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379640083.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379640083_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379651874.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379651874.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379651874_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379651964.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379651964.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379651964_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379652097.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379652097.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379652097_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379652185.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379652185.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379652185_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2727 cached/archived units.  Used 2727 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Invalid Unit: com.matthieuhostache.trollvseditor.client.HomeView
+Invalid units found: 1
+Compiling...
+   Compilation completed in 0,01 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/TableView.java'
+      [ERROR] Line 30: button cannot be resolved
+      [ERROR] Line 34: button cannot be resolved
+      [ERROR] Line 38: button cannot be resolved
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2727 cached/archived units.  Used 2727 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Invalid Unit: com.matthieuhostache.trollvseditor.client.HomeView
+Invalid units found: 1
+Compiling...
+   Compilation completed in 0,01 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379777765.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379777765.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379777765_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379778057.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379778057.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379778057_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379797295.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379797295.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379797295_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379797392.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379797392.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379797392_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379804081.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379804081.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379804081_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379806614.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379806614.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379806614_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379814967.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379814967.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379814967_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.DataGrid.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method dataGridLoading
+         Adding image 'com.google.gwt.user.cellview.client.DataGrid.Resources.dataGridLoading'
+      Preparing method dataGridSortAscending
+         Adding image 'com.google.gwt.user.cellview.client.DataGrid.Resources.dataGridSortAscending'
+      Preparing method dataGridSortDescending
+         Adding image 'com.google.gwt.user.cellview.client.DataGrid.Resources.dataGridSortDescending'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+         Generating method body for image()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.AbstractCellTable.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.cellview.client.AbstractCellTable.Template
+         Generating method body for div()
+         Generating method body for tbody()
+         Generating method body for td()
+         Generating method body for tdBothAlign()
+         Generating method body for tdHorizontalAlign()
+         Generating method body for tdVerticalAlign()
+         Generating method body for tfoot()
+         Generating method body for thead()
+         Generating method body for tr()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.CustomScrollPanel.Resources
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.resources.client.CommonResources.Bundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar.ResourcesTransparant
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar.NativeHorizontalScrollbarUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar_NativeHorizontalScrollbarUiBinderImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.NativeHorizontalScrollbar_NativeHorizontalScrollbarUiBinderImpl.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar_NativeHorizontalScrollbarUiBinderImpl_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar.ResourcesTransparant
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar.NativeVerticalScrollbarUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar_NativeVerticalScrollbarUiBinderImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.NativeVerticalScrollbar_NativeVerticalScrollbarUiBinderImpl.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar_NativeVerticalScrollbarUiBinderImpl_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379838822.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379838822.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379838822_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379842688.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379842688.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384379842688_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2726 cached/archived units.  Used 2726 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,01 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381235567.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381235567.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381235567_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.DataGrid.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method dataGridLoading
+         Adding image 'com.google.gwt.user.cellview.client.DataGrid.Resources.dataGridLoading'
+      Preparing method dataGridSortAscending
+         Adding image 'com.google.gwt.user.cellview.client.DataGrid.Resources.dataGridSortAscending'
+      Preparing method dataGridSortDescending
+         Adding image 'com.google.gwt.user.cellview.client.DataGrid.Resources.dataGridSortDescending'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+         Generating method body for image()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.AbstractCellTable.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.cellview.client.AbstractCellTable.Template
+         Generating method body for div()
+         Generating method body for tbody()
+         Generating method body for td()
+         Generating method body for tdBothAlign()
+         Generating method body for tdHorizontalAlign()
+         Generating method body for tdVerticalAlign()
+         Generating method body for tfoot()
+         Generating method body for thead()
+         Generating method body for tr()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.CustomScrollPanel.Resources
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.resources.client.CommonResources.Bundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar.ResourcesTransparant
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar.NativeHorizontalScrollbarUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar_NativeHorizontalScrollbarUiBinderImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.NativeHorizontalScrollbar_NativeHorizontalScrollbarUiBinderImpl.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar_NativeHorizontalScrollbarUiBinderImpl_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar.ResourcesTransparant
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar.NativeVerticalScrollbarUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar_NativeVerticalScrollbarUiBinderImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.NativeVerticalScrollbar_NativeVerticalScrollbarUiBinderImpl.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar_NativeVerticalScrollbarUiBinderImpl_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381236219.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381236219.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381236219_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381243822.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381243822.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381243822_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.DataGrid.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method dataGridLoading
+         Adding image 'com.google.gwt.user.cellview.client.DataGrid.Resources.dataGridLoading'
+      Preparing method dataGridSortAscending
+         Adding image 'com.google.gwt.user.cellview.client.DataGrid.Resources.dataGridSortAscending'
+      Preparing method dataGridSortDescending
+         Adding image 'com.google.gwt.user.cellview.client.DataGrid.Resources.dataGridSortDescending'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+         Generating method body for image()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.AbstractCellTable.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.cellview.client.AbstractCellTable.Template
+         Generating method body for div()
+         Generating method body for tbody()
+         Generating method body for td()
+         Generating method body for tdBothAlign()
+         Generating method body for tdHorizontalAlign()
+         Generating method body for tdVerticalAlign()
+         Generating method body for tfoot()
+         Generating method body for thead()
+         Generating method body for tr()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.CustomScrollPanel.Resources
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.resources.client.CommonResources.Bundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar.ResourcesTransparant
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar.NativeHorizontalScrollbarUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar_NativeHorizontalScrollbarUiBinderImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.NativeHorizontalScrollbar_NativeHorizontalScrollbarUiBinderImpl.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeHorizontalScrollbar_NativeHorizontalScrollbarUiBinderImpl_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar.ResourcesTransparant
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar.NativeVerticalScrollbarUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar_NativeVerticalScrollbarUiBinderImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.NativeVerticalScrollbar_NativeVerticalScrollbarUiBinderImpl.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.NativeVerticalScrollbar_NativeVerticalScrollbarUiBinderImpl_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381245196.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381245196.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381245196_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381270974.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381270974.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381270974_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381271021.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381271021.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381271021_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView.TableViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381298893.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381298893.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.TableView_TableViewUiBinderImpl_designTime1384381298893_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.CellTable.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method cellTableFooterBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableFooterBackground'
+      Preparing method cellTableHeaderBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableHeaderBackground'
+      Preparing method cellTableLoading
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableLoading'
+      Preparing method cellTableSelectedBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSelectedBackground'
+      Preparing method cellTableSortAscending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortAscending'
+      Preparing method cellTableSortDescending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortDescending'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units

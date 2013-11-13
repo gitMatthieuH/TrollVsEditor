@@ -10,38 +10,40 @@ import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.HasText;
 import com.google.gwt.user.client.ui.Widget;
+import com.google.gwt.user.cellview.client.DataGrid;
+import com.google.gwt.user.cellview.client.CellTable;
+import com.google.gwt.user.cellview.client.TextColumn;
+import com.google.gwt.view.client.ListDataProvider;
+import com.matthieuhostache.trollvseditor.shared.Troll;
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
 
-public class TableView extends Composite implements HasText {
+public class TableView extends Composite {
 
 	private static TableViewUiBinder uiBinder = GWT
 			.create(TableViewUiBinder.class);
+	@UiField(provided=true) CellTable<Troll> cellTable = new CellTable<Troll>();
 
 	interface TableViewUiBinder extends UiBinder<Widget, TableView> {
 	}
 
 	public TableView() {
-		initWidget(uiBinder.createAndBindUi(this));
+		cellTable.addColumn(nameColumn, "Name");
+		ListDataProvider<Troll> dataProvider = new ListDataProvider<Troll>();
+		dataProvider.addDataDisplay(cellTable);
+		
+		List<Troll> list = dataProvider.getList();
+	    for (Troll troll : TROLLS) {
+	      list.add(troll);
+	    }
 	}
-
-	@UiField
-	Button button;
-
-	public TableView(String firstName) {
-		initWidget(uiBinder.createAndBindUi(this));
-		button.setText(firstName);
-	}
-
-	@UiHandler("button")
-	void onClick(ClickEvent e) {
-		Window.alert("Hello!");
-	}
-
-	public void setText(String text) {
-		button.setText(text);
-	}
-
-	public String getText() {
-		return button.getText();
-	}
-
+	
+	TextColumn<Troll> nameColumn = new TextColumn<Troll>() {
+      @Override
+      public String getValue(Troll troll) {
+        return troll.nom;
+      }
+	};
+	
+	
 }
+
