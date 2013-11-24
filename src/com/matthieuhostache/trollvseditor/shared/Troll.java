@@ -100,10 +100,14 @@ public class Troll implements IsSerializable {
 	}
 
 
-	public int getRegeneration() {
+	public int pointdevie() {
 		return regeneration;
 	}
 
+
+	public int getRegeneration() {
+		return regeneration;
+	}
 
 	public void setRegeneration(int regeneration) {
 		this.regeneration = regeneration;

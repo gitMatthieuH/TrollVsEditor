@@ -74,6 +74,8 @@ public class EditorView extends Composite {
 	@UiField Button compet2p;
 	@UiField Label compet2name;
 	@UiField Label compet1name;
+	@UiField Label ptsCompet;
+	@UiField Label caracPointsRestants;
 
 	public EditorView(String firstName) {
 		initWidget(uiBinder.createAndBindUi(this));
@@ -105,9 +107,10 @@ public class EditorView extends Composite {
 
 	@UiHandler("attaquem")
 	void onAttaquemClick(ClickEvent event) {
-		if(this.caracPoints>0) {
+		if(this.caracPoints>0 && attaque.getValue()>0) {
 			attaque.setValue(attaque.getValue()-1);
 			this.caracPoints--;
+			caracPointsRestants.setText( Integer.toString(50 - this.caracPoints));
 		}
 	}
 	
@@ -116,14 +119,16 @@ public class EditorView extends Composite {
 		if(this.caracPoints<50) {
 			attaque.setValue(attaque.getValue()+1);
 			this.caracPoints++;
+			caracPointsRestants.setText( Integer.toString(50 - this.caracPoints));
 		}
 	}
 	
 	@UiHandler("degatsm")
 	void onDegatsClick(ClickEvent event) {
-		if(this.caracPoints>0) {
+		if(this.caracPoints>0 && degats.getValue()>0) {
 			degats.setValue(degats.getValue()-1);
 			this.caracPoints--;
+			caracPointsRestants.setText( Integer.toString(50 - this.caracPoints));
 		}
 	}
 	
@@ -132,14 +137,16 @@ public class EditorView extends Composite {
 		if(this.caracPoints<50) {
 			degats.setValue(degats.getValue()+1);
 			this.caracPoints++;
+			caracPointsRestants.setText( Integer.toString(50 - this.caracPoints));
 		}
 	}
 	
 	@UiHandler("esquivem")
 	void onEsquivemClick(ClickEvent event) {
-		if(this.caracPoints>0) {
+		if(this.caracPoints>0 && esquive.getValue()>0) {
 			esquive.setValue(esquive.getValue()-1);
 			this.caracPoints--;
+			caracPointsRestants.setText( Integer.toString(50 - this.caracPoints));
 		}
 	}
 	
@@ -148,12 +155,13 @@ public class EditorView extends Composite {
 		if(this.caracPoints<50) {
 			esquive.setValue(esquive.getValue()+1);
 			this.caracPoints++;
+			caracPointsRestants.setText( Integer.toString(50 - this.caracPoints));
 		}
 	}
 	
 	@UiHandler("regenerationm")
 	void onRegenerationmClick(ClickEvent event) {
-		if(this.caracPoints>0) {
+		if(this.caracPoints>0 && regeneration.getValue()>0) {
 			regeneration.setValue(regeneration.getValue()-1);
 			this.caracPoints--;
 		}
@@ -164,14 +172,16 @@ public class EditorView extends Composite {
 		if(this.caracPoints<50) {
 			regeneration.setValue(regeneration.getValue()+1);
 			this.caracPoints++;
+			caracPointsRestants.setText( Integer.toString(50 - this.caracPoints));
 		}
 	}
 	
 	@UiHandler("pointdeviem")
 	void onPointdeviemClick(ClickEvent event) {
-		if(this.caracPoints>0) {
+		if(this.caracPoints>0 && pointdevie.getValue()>0) {
 			pointdevie.setValue(pointdevie.getValue()-1);
 			this.caracPoints--;
+			caracPointsRestants.setText( Integer.toString(50 - this.caracPoints));
 		}
 	}
 	
@@ -180,14 +190,16 @@ public class EditorView extends Composite {
 		if(this.caracPoints<50) {
 			pointdevie.setValue(pointdevie.getValue()+1);
 			this.caracPoints++;
+			caracPointsRestants.setText( Integer.toString(50 - this.caracPoints));
 		}
 	}
 	
 	@UiHandler("compet1m")
 	void onCompet1mClick(ClickEvent event) {
-		if(this.caracSpePoints>0) {
+		if(this.caracSpePoints>0 && compet1.getValue()>0) {
 			compet1.setValue(compet1.getValue()-1);
 			this.caracSpePoints--;
+			ptsCompet.setText( Integer.toString(20 - this.caracSpePoints));
 		}
 	}
 	
@@ -196,14 +208,16 @@ public class EditorView extends Composite {
 		if(this.caracSpePoints<20) {
 			compet1.setValue(compet1.getValue()+1);
 			this.caracSpePoints++;
+			ptsCompet.setText( Integer.toString(20 - this.caracSpePoints));
 		}
 	}
 	
 	@UiHandler("compet2m")
 	void onCompet2mClick(ClickEvent event) {
-		if(this.caracSpePoints>0) {
+		if(this.caracSpePoints>0 && compet2.getValue()>0) {
 			compet2.setValue(compet2.getValue()-1);
 			this.caracSpePoints--;
+			ptsCompet.setText( Integer.toString(20 - this.caracSpePoints));
 		}
 	}
 	
@@ -212,6 +226,7 @@ public class EditorView extends Composite {
 		if(this.caracSpePoints<20) {
 			compet2.setValue(compet2.getValue()+1);
 			this.caracSpePoints++;
+			ptsCompet.setText( Integer.toString(20 - this.caracSpePoints));
 		}
 	}
 	
@@ -222,22 +237,22 @@ public class EditorView extends Composite {
 		switch (race.getSelectedIndex())
 		{
 			
-		  case 1:
+		  case 0:
 			  picUrl = "img/hebus.jpg";
 			  compet1name.setText("Botte Secrète");
 			  compet2name.setText("Hypnotisme");
 		    break;
-		  case 2:
+		  case 1:
 			  picUrl = "img/tinette.jpg";
 			  compet1name.setText("Accélération Métabolique");
 			  compet2name.setText("Accélération Psychique");
 		    break;
-		  case 3:
+		  case 2:
 			  picUrl = "img/trollf.jpg";
 			  compet1name.setText("Régénération Accrue");
 			  compet2name.setText("Rafale Psychique");
 		    break;
-		  case 4:
+		  case 3:
 			  picUrl = "img/waha.jpg";
 			  compet1name.setText("Camouflage");
 			  compet2name.setText("Projectile Magique");

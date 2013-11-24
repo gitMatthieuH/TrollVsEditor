@@ -1,10 +1,20 @@
 package com.matthieuhostache.trollvseditor.server;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 
 import com.matthieuhostache.trollvseditor.client.GreetingService;
 import com.matthieuhostache.trollvseditor.shared.FieldVerifier;
 import com.matthieuhostache.trollvseditor.shared.Troll;
+import com.thoughtworks.xstream.XStream;
+import com.google.gwt.dom.client.Document;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**
@@ -29,10 +39,27 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 		
 		String trollName = "undefined";
 		
+		XStream xstream = new XStream();
+		String xml = null;
 		for(Troll troll : trollList){
+			xml = xstream.toXML(troll);
 			trollName = troll.getNom();
 		}
 
+		String dest = "troll.xml"; 
+		Document doc = null; 
+		DocumentBuilder db = null;
+		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance(); 
+		
+		try{ 
+		        db = dbf.newDocumentBuilder(); 
+		} 
+		catch(ParserConfigurationException pce){ 
+		        System.err.println("Errore per DocumentBuilder"); 
+		} 
+		
+
+		
 		String serverInfo = getServletContext().getServerInfo();
 		String userAgent = getThreadLocalRequest().getHeader("User-Agent");
 
@@ -43,8 +70,7 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 		trollName = escapeHtml(trollName);
 		userAgent = escapeHtml(userAgent);
 
-		return "Hello, " + trollName + "!<br><br>I am running " + serverInfo
-				+ ".<br><br>It looks like you are using:<br>" + userAgent;
+		return xml;
 	}
 	
 	public ArrayList<Troll> greetServer(String name) throws IllegalArgumentException {

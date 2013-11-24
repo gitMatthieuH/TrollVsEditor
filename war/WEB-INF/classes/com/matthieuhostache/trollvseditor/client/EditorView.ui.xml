@@ -33,6 +33,7 @@
 							Darkling : Balayage et Siphon des âmes
 						</g:item>
 					</g:ListBox>
+                    <g:Label text="50" ui:field="caracPointsRestants"/>
                     <g:Label text="Attaque"/>
                     <g:HorizontalPanel>
                     	<g:Button text="-" width="40px" ui:field="attaquem"/>
@@ -65,15 +66,16 @@
                     </g:HorizontalPanel>  
 
 				</g:VerticalPanel>
-        			<g:VerticalPanel horizontalAlignment="ALIGN_CENTER">
+        			<g:VerticalPanel horizontalAlignment="ALIGN_CENTER" height="414px">
         			<g:Image ui:field="pic" url="img/hebus.jpg" width="200px" height=""/>
-        			<g:Label text="Compétence 1" ui:field="compet1name"/>
+        			<g:Label text="20" ui:field="ptsCompet"/>
+        			<g:Label text="Botte Secrète" ui:field="compet1name"/>
         			<g:HorizontalPanel>
         				<g:Button text="-" width="40px" ui:field="compet1m"/>
         				<g:IntegerBox alignment="CENTER" enabled="false" value="0" width="50px" ui:field="compet1"/>
         				<g:Button text="+" width="40px" ui:field="compet1p"/>
         			</g:HorizontalPanel>
-        			<g:Label text="Compétence 2" ui:field="compet2name"/>
+        			<g:Label text="Hypnotisme" ui:field="compet2name"/>
         			<g:HorizontalPanel>
         				<g:Button text="-" width="40px" ui:field="compet2m"/>
         				<g:IntegerBox alignment="CENTER" enabled="false" value="0" width="50px" ui:field="compet2"/>

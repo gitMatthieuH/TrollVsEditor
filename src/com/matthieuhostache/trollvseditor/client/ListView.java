@@ -28,8 +28,8 @@ public class ListView extends Composite{
 	}
 
 	public ListView() {
-		initWidget(uiBinder.createAndBindUi(this));
 		getTrollsInfosFromServer();
+		initWidget(uiBinder.createAndBindUi(this));
 	}
 	
 	private final GreetingServiceAsync greetingService = GWT
