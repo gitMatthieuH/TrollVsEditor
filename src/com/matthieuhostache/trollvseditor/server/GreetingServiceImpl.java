@@ -1,20 +1,20 @@
 package com.matthieuhostache.trollvseditor.server;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.OutputStreamWriter;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
+import java.util.List;
 
 import com.matthieuhostache.trollvseditor.client.GreetingService;
-import com.matthieuhostache.trollvseditor.shared.FieldVerifier;
 import com.matthieuhostache.trollvseditor.shared.Troll;
 import com.thoughtworks.xstream.XStream;
-import com.google.gwt.dom.client.Document;
+import com.thoughtworks.xstream.io.xml.DomDriver;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**
@@ -25,56 +25,51 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 		GreetingService {
 	
 	private ArrayList<Troll> savedTrollList;
-
+	
 	public String greetServer(ArrayList<Troll> trollList) throws IllegalArgumentException {
-		// Verify that the input is valid. 
-		/*if (!FieldVerifier.isValidName(input)) {
-			// If the input is not valid, throw an IllegalArgumentException back to
-			// the client.
-			throw new IllegalArgumentException(
-					"Name must be at least 4 characters long");
-		}*/
+		String etatSauvegarde = "Erreur lors de la sauvegarde";
 		
 		this.savedTrollList = trollList;
 		
-		String trollName = "undefined";
-		
 		XStream xstream = new XStream();
-		String xml = null;
-		for(Troll troll : trollList){
-			xml = xstream.toXML(troll);
-			trollName = troll.getNom();
-		}
 
-		String dest = "troll.xml"; 
-		Document doc = null; 
-		DocumentBuilder db = null;
-		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance(); 
-		
-		try{ 
-		        db = dbf.newDocumentBuilder(); 
-		} 
-		catch(ParserConfigurationException pce){ 
-		        System.err.println("Errore per DocumentBuilder"); 
-		} 
-		
+        try{   
+        	FileOutputStream outputStream = new FileOutputStream("trolls.xml");
+            OutputStreamWriter writer = new OutputStreamWriter(outputStream, Charset.forName("UTF-8"));
+        	xstream.toXML(trollList, writer);
+        	etatSauvegarde = "Sauvegarde OK";
+        }catch (Exception e){
+            System.err.println("Error in XML Write: " + e.getMessage());
+        }
 
-		
-		String serverInfo = getServletContext().getServerInfo();
-		String userAgent = getThreadLocalRequest().getHeader("User-Agent");
-
-		// Escape data from the client to avoid cross-site script vulnerabilities.
-		
-		
-		
-		trollName = escapeHtml(trollName);
-		userAgent = escapeHtml(userAgent);
-
-		return xml;
+        return etatSauvegarde;
 	}
 	
 	public ArrayList<Troll> greetServer(String name) throws IllegalArgumentException {
-		return savedTrollList;
+		ArrayList<Troll> trolls = null;
+		
+		
+		try {
+            XStream xstream = new XStream(new DomDriver());
+ 
+            FileInputStream fis = new FileInputStream(new File("trolls.xml"));
+            
+            try {
+            	 trolls = (ArrayList<Troll>) xstream.fromXML(fis);
+                System.out.println(trolls.toString());
+ 
+            } finally {
+                fis.close();
+            }
+			} catch (FileNotFoundException e) {
+		        e.printStackTrace();
+		    } catch (IOException ioe) {
+		        ioe.printStackTrace();
+		    }
+		
+		System.out.println("output : " + trolls.get(0).getNom());
+		
+		return trolls;
 	}
 
 	/**

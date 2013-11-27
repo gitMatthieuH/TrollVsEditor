@@ -39,7 +39,7 @@ public class TrollvsEditor implements EntryPoint {
 	private final GreetingServiceAsync greetingService = GWT
 			.create(GreetingService.class);
 	
-	private HomeView mainHome = new HomeView();
+	private EditorView mainEditor = new EditorView();
 	
 	private static TrollvsEditor SINGLETON;
 	
@@ -53,7 +53,7 @@ public class TrollvsEditor implements EntryPoint {
 	public void onModuleLoad() {
 		SINGLETON = this;
 		//RootPanel.get().add(mainEditor);
-		RootPanel.get("navigation").add(mainHome);
+		RootPanel.get("navigation").add(mainEditor);
 	
 	}
 	

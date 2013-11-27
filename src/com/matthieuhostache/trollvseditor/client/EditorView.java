@@ -1,6 +1,7 @@
 package com.matthieuhostache.trollvseditor.client;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -8,10 +9,10 @@ import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiHandler;
 import com.google.gwt.user.client.Window;
+import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.FormPanel;
-import com.google.gwt.user.client.ui.HasText;
 import com.google.gwt.user.client.ui.IntegerBox;
 import com.google.gwt.user.client.ui.ListBox;
 import com.google.gwt.user.client.ui.TextBox;
@@ -19,29 +20,39 @@ import com.google.gwt.user.client.ui.Widget;
 import com.google.gwt.user.client.ui.FormPanel.SubmitEvent;
 import com.matthieuhostache.trollvseditor.shared.Troll;
 import com.google.gwt.user.cellview.client.CellList;
-import com.google.gwt.view.client.ProvidesKey;
+import com.google.gwt.user.cellview.client.CellTable;
+import com.google.gwt.user.cellview.client.TextColumn;
+import com.google.gwt.view.client.ListDataProvider;
 import com.google.gwt.cell.client.AbstractCell;
-import com.google.gwt.cell.client.Cell.Context;
 import com.google.gwt.safehtml.shared.SafeHtmlBuilder;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.event.dom.client.ChangeEvent;
+import com.google.gwt.user.client.ui.TabPanel;
+import com.google.gwt.event.logical.shared.SelectionEvent;
 
 public class EditorView extends Composite {
 
 	private static EditorViewUiBinder uiBinder = GWT
 			.create(EditorViewUiBinder.class);
 	
+	private final GreetingServiceAsync greetingService = GWT
+			.create(GreetingService.class);
+	
 	private ArrayList<Troll> trollList = new ArrayList<Troll>();
 	
 	private int caracPoints;
 	private int caracSpePoints;
+	
+	private ListDataProvider<Troll> dataProvider = new ListDataProvider<Troll>();
 
 	interface EditorViewUiBinder extends UiBinder<Widget, EditorView> {
 	}
-
+	
+	
 	public EditorView() {
 		initWidget(uiBinder.createAndBindUi(this));
+		tabPanel.selectTab(0);
 	}
 
 	@UiField FormPanel formPanel;
@@ -76,6 +87,10 @@ public class EditorView extends Composite {
 	@UiField Label compet1name;
 	@UiField Label ptsCompet;
 	@UiField Label caracPointsRestants;
+	
+	@UiField(provided=true) CellTable<Troll> cellTable = new CellTable<Troll>();
+	@UiField TabPanel tabPanel;
+	@UiField ListBox listTrolls;
 
 	public EditorView(String firstName) {
 		initWidget(uiBinder.createAndBindUi(this));
@@ -101,7 +116,6 @@ public class EditorView extends Composite {
 	void onFormPanelSubmit(SubmitEvent event) {
 		
 		TrollvsEditor.get().sendTrollsInfosToServer(this.trollList);
-		Window.alert("send !");
 		
 	}
 
@@ -272,5 +286,129 @@ public class EditorView extends Composite {
 	}
 	@UiHandler("addtroll")
 	void onAddtrollClick(ClickEvent event) {
+	}
+	
+	public void getTrollsInfosFromServer() {
+		greetingService.greetServer("salut", new AsyncCallback<ArrayList<Troll>>() {
+			@Override
+			public void onSuccess(ArrayList<Troll> result) {
+				//listTrolls.clear();
+				
+				for(Troll troll: result) {
+					listTrolls.addItem(troll.getNom());
+				}
+						
+				TextColumn<Troll> nameColumn = new TextColumn<Troll>() {
+			      @Override
+			      public String getValue(Troll troll) {
+			        return troll.getNom();
+			      }
+			    };
+			    
+			    TextColumn<Troll> raceColumn = new TextColumn<Troll>() {
+			      @Override
+			      public String getValue(Troll troll) {
+			        return Integer.toString(troll.getRace());
+			      }
+			    };
+			    
+			    TextColumn<Troll> attaqueColumn = new TextColumn<Troll>() {
+			      @Override
+			      public String getValue(Troll troll) {
+			        return Integer.toString(troll.getAttaque());
+			      }
+			    };
+			    
+			    TextColumn<Troll> deguatColumn = new TextColumn<Troll>() {
+			      @Override
+			      public String getValue(Troll troll) {
+			        return Integer.toString(troll.getDeguat());
+			      }
+			    };
+			    
+			    TextColumn<Troll> esquiveColumn = new TextColumn<Troll>() {
+			      @Override
+			      public String getValue(Troll troll) {
+			        return Integer.toString(troll.getEsquive());
+			      }
+			    };
+			    
+			    TextColumn<Troll> regenerationColumn = new TextColumn<Troll>() {
+			      @Override
+			      public String getValue(Troll troll) {
+			        return Integer.toString(troll.getRegeneration());
+			      }
+			    };
+					    			    
+			    TextColumn<Troll> pointdevieColumn = new TextColumn<Troll>() {
+			      @Override
+			      public String getValue(Troll troll) {
+			        return Integer.toString(troll.getPointdevie());
+			      }
+			    };
+					        
+			    TextColumn<Troll> competence1Column = new TextColumn<Troll>() {
+			      @Override
+			      public String getValue(Troll troll) {
+			        return Integer.toString(troll.getCompetence1());
+			      }
+			    };
+					    
+			    TextColumn<Troll> competence2Column = new TextColumn<Troll>() {
+			      @Override
+			      public String getValue(Troll troll) {
+			        return Integer.toString(troll.getCompetence2());
+			      }
+			    };
+			    
+			    			    
+			    cellTable.addColumn(nameColumn, "Nom");
+			    cellTable.addColumn(raceColumn, "Race");
+			    cellTable.addColumn(attaqueColumn, "Attaque");
+			    cellTable.addColumn(deguatColumn, "Déguat");
+			    cellTable.addColumn(esquiveColumn, "Esquive");
+			    cellTable.addColumn(regenerationColumn, "Regénération");
+			    cellTable.addColumn(pointdevieColumn, "Point de vie");
+			    cellTable.addColumn(competence1Column, "Compétence 1");
+			    cellTable.addColumn(competence2Column, "Compétence 2");
+			    
+			    
+			    dataProvider = new ListDataProvider<Troll>();
+			    
+			    dataProvider.addDataDisplay(cellTable);
+			    
+			    List<Troll> list = dataProvider.getList();
+			    
+				for (Troll troll : result) {
+			      list.add(troll);
+			    }
+				
+				initWidget(cellTable);
+				
+			}
+			
+			@Override
+			public void onFailure(Throwable caught) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+		
+	}
+	
+	@UiHandler("tabPanel")
+	void onTabSelection(SelectionEvent<Integer> event) {
+	  if (event.getSelectedItem() == 1) {
+		  
+		  getTrollsInfosFromServer();
+		  listTrolls.clear();
+		  dataProvider.refresh();
+	  }
+	}
+	
+	@UiHandler("listTrolls")
+	void onListTrollsChange(ChangeEvent event) {
+		int trollIndex = listTrolls.getSelectedIndex();
+		
 	}
 }

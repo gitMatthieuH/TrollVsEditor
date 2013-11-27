@@ -7,10 +7,10 @@
 		}
 	</ui:style>
 	<g:HTMLPanel>
-        <g:HorizontalPanel horizontalAlignment="ALIGN_CENTER" width="1164px" height="651px">
-        	<g:Cell horizontalAlignment="ALIGN_CENTER">
-        		<g:FormPanel height="611px" width="811px" ui:field="formPanel">
-        	<g:VerticalPanel width="805px" height="591px" horizontalAlignment="ALIGN_CENTER">
+		<g:TabPanel width="1091px" height="800px" ui:field="tabPanel">
+			<g:Tab ui:field="editorTab" text="Création de Trolls">
+				<g:FormPanel height="619px" width="1048px" ui:field="formPanel">
+        	<g:VerticalPanel width="1076px" height="492px" horizontalAlignment="ALIGN_CENTER">
         		<g:HorizontalPanel>
         			<g:VerticalPanel width="256px" height="540px" horizontalAlignment="ALIGN_CENTER"> 
                     <g:Label text="Nom du Troll" width="106px" height="13px">nom du troll</g:Label>   
@@ -90,8 +90,24 @@
                     </g:HorizontalPanel>
         	</g:VerticalPanel>
         </g:FormPanel>
-        	</g:Cell>
-        </g:HorizontalPanel>  
+			</g:Tab>
+			<g:Tab text="Listing Trolls">
+				<g:VerticalPanel width="1057px" height="601px">
+					<g:HorizontalPanel width="723px">
+						<g:ListBox visibleItemCount="5" width="173px" height="154px" ui:field="listTrolls"/>
+						<g:Image url="img/hebus.jpg" width="257px" height="271px"/>
+						<g:VerticalPanel>
+							<g:Button text="Editer"/>
+							<g:Button text="Supprimer"/>
+						</g:VerticalPanel>
+					</g:HorizontalPanel>
+					<p1:CellTable ui:field="cellTable" width="480px" height="206px"/>
+				</g:VerticalPanel>
+			</g:Tab>
+			<g:Tab text="Chasseur de têtes">
+				<g:FlowPanel width="5cm" height="3cm"/>
+			</g:Tab>
+		</g:TabPanel>  
  
     </g:HTMLPanel>
 </ui:UiBinder> 

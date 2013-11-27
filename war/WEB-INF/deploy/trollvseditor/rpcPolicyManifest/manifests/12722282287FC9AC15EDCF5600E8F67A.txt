@@ -1,0 +1,2 @@
+serviceClass: com.matthieuhostache.trollvseditor.client.GreetingService
+path: CD2D4FD79A37FC7839058676A6EBC751.gwt.rpc

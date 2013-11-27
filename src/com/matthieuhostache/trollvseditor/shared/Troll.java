@@ -6,6 +6,7 @@ import com.google.gwt.user.client.rpc.IsSerializable;
 public class Troll implements IsSerializable {
 	
 	private String nom;
+	private int id;
 	private int race;
 	private int attaque;
 	private int deguat;
