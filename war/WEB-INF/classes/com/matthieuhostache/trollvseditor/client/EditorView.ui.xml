@@ -21,7 +21,7 @@
 						  Skrim : Botte Secrète et Hypnotisme
 						</g:item>
 						<g:item value='2'>
-						  Kastar : Accélération Métabolique et Accélération Métabolique
+						  Kastar : Accélération Métabolique et Vampirisme
 						</g:item> 
 						<g:item value='3'>
 							Durakuir : Régénération Accrue et Rafale Psychique
@@ -82,7 +82,9 @@
         				<g:Button text="+" width="40px" ui:field="compet2p"/>
         			</g:HorizontalPanel>
         		</g:VerticalPanel>
-        			<p1:CellList ui:field="cellList"/>
+        			<g:Cell width="">
+        				<g:ListBox visibleItemCount="5" ui:field="trollsToAdd" width="100"/>
+        			</g:Cell>
         		</g:HorizontalPanel>
         		<g:HorizontalPanel>
                     	<g:Button height="34px" width="75px" text="Ajouter" ui:field="addtroll"/>
@@ -97,7 +99,7 @@
 						<g:ListBox visibleItemCount="5" width="173px" height="154px" ui:field="listTrolls"/>
 						<g:Image url="img/hebus.jpg" width="257px" height="271px"/>
 						<g:VerticalPanel>
-							<g:Button text="Editer"/>
+							<g:Button text="Editer" ui:field="button"/>
 							<g:Button text="Supprimer"/>
 						</g:VerticalPanel>
 					</g:HorizontalPanel>

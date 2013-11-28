@@ -12104,3 +12104,1710 @@ Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinde
       Compiling...
          Compilation completed in 0,01 seconds
       Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2719 cached/archived units.  Used 2719 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,10 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567223036.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567223036.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567223036_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.CellList.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.cellview.client.CellList.Template
+         Generating method body for div()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.CellList.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method cellListSelectedBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellList.Resources.cellListSelectedBackground'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.CellTable.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method cellTableFooterBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableFooterBackground'
+      Preparing method cellTableHeaderBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableHeaderBackground'
+      Preparing method cellTableLoading
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableLoading'
+      Preparing method cellTableSelectedBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSelectedBackground'
+      Preparing method cellTableSortAscending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortAscending'
+      Preparing method cellTableSortDescending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortDescending'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+         Generating method body for image()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.AbstractCellTable.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.cellview.client.AbstractCellTable.Template
+         Generating method body for div()
+         Generating method body for tbody()
+         Generating method body for td()
+         Generating method body for tdBothAlign()
+         Generating method body for tdHorizontalAlign()
+         Generating method body for tdVerticalAlign()
+         Generating method body for tfoot()
+         Generating method body for thead()
+         Generating method body for tr()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.i18n.client.CurrencyList
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567225790.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567225790.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567225790_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.FormPanel.IFrameTemplate
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.FormPanel.IFrameTemplate
+         Generating method body for get()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567255476.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567255476.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567255476_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567321571.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567321571.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567321571_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567335652.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567335652.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567335652_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567343699.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567343699.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567343699_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567360359.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567360359.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567360359_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567374316.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567374316.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567374316_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567391436.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567391436.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567391436_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567394815.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567394815.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567394815_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567403537.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567403537.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567403537_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567412847.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567412847.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567412847_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567414980.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567414980.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567414980_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567418139.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567418139.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567418139_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567418406.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567418406.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567418406_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567425260.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567425260.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567425260_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567425510.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567425510.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567425510_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567427759.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567427759.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567427759_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567427998.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567427998.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567427998_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567438184.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567438184.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567438184_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567438424.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567438424.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567438424_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567439793.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567439793.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567439793_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567440049.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567440049.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567440049_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567441709.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567441709.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567441709_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567441929.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567441929.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567441929_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567443133.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567443133.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567443133_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567443357.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567443357.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567443357_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567444411.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567444411.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567444411_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567444672.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567444672.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567444672_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567448412.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567448412.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567448412_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567448638.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567448638.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567448638_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567450204.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567450204.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567450204_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567450457.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567450457.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567450457_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567471975.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567471975.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567471975_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567478701.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567478701.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567478701_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567488893.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567488893.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567488893_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567498031.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567498031.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567498031_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2727 cached/archived units.  Used 2727 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,04 seconds
+Invalid Unit: com.matthieuhostache.trollvseditor.client.TrollvsEditor
+Invalid Unit: com.matthieuhostache.trollvseditor.client.HomeView
+Invalid units found: 2
+Compiling...
+   Compilation completed in 0,01 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/home/matthieu/DEV/Java/TrollvsEditor/src/com/matthieuhostache/trollvseditor/client/EditorView.java'
+      [ERROR] Line 96: cellList cannot be resolved
+      [ERROR] Line 97: cellList cannot be resolved
+      [ERROR] Line 402: cellList cannot be resolved to a type
+      [ERROR] Line 402: Syntax error on token ".", invalid VariableDeclarator
+   [ERROR] Unable to find type 'com.matthieuhostache.trollvseditor.client.TrollvsEditor'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2727 cached/archived units.  Used 2727 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,03 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] com.google.gwt.user.cellview.client.CellList has no default (zero args) constructor. To fix this, you can define a @UiFactory method on the UiBinder's owner, or annotate a constructor of CellList with @UiConstructor.
+[ERROR] Deferred binding failed for 'com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2727 cached/archived units.  Used 2727 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,03 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] com.google.gwt.user.cellview.client.CellList has no default (zero args) constructor. To fix this, you can define a @UiFactory method on the UiBinder's owner, or annotate a constructor of CellList with @UiConstructor.
+[ERROR] Deferred binding failed for 'com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] com.google.gwt.user.cellview.client.CellList has no default (zero args) constructor. To fix this, you can define a @UiFactory method on the UiBinder's owner, or annotate a constructor of CellList with @UiConstructor.
+[ERROR] Deferred binding failed for 'com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] com.google.gwt.user.cellview.client.CellList has no default (zero args) constructor. To fix this, you can define a @UiFactory method on the UiBinder's owner, or annotate a constructor of CellList with @UiConstructor.
+[ERROR] Deferred binding failed for 'com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] com.google.gwt.user.cellview.client.CellList has no default (zero args) constructor. To fix this, you can define a @UiFactory method on the UiBinder's owner, or annotate a constructor of CellList with @UiConstructor.
+[ERROR] Deferred binding failed for 'com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2728 cached/archived units.  Used 2728 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] com.google.gwt.user.cellview.client.CellList has no default (zero args) constructor. To fix this, you can define a @UiFactory method on the UiBinder's owner, or annotate a constructor of CellList with @UiConstructor.
+[ERROR] Deferred binding failed for 'com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2727 cached/archived units.  Used 2727 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,02 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567715030.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567715030.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567715030_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.CellTable.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method cellTableFooterBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableFooterBackground'
+      Preparing method cellTableHeaderBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableHeaderBackground'
+      Preparing method cellTableLoading
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableLoading'
+      Preparing method cellTableSelectedBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSelectedBackground'
+      Preparing method cellTableSortAscending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortAscending'
+      Preparing method cellTableSortDescending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortDescending'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+         Generating method body for image()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.AbstractCellTable.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.cellview.client.AbstractCellTable.Template
+         Generating method body for div()
+         Generating method body for tbody()
+         Generating method body for td()
+         Generating method body for tdBothAlign()
+         Generating method body for tdHorizontalAlign()
+         Generating method body for tdVerticalAlign()
+         Generating method body for tfoot()
+         Generating method body for thead()
+         Generating method body for tr()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.i18n.client.CurrencyList
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567716098.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567716098.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567716098_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.FormPanel.IFrameTemplate
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.FormPanel.IFrameTemplate
+         Generating method body for get()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567752076.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567752076.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567752076_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567755488.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567755488.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567755488_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567761113.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567761113.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385567761113_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2719 cached/archived units.  Used 2719 / 2728 units from cache.
+Compiling...
+   Compilation completed in 0,10 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385631732323.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385631732323.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385631732323_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.CellTable.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method cellTableFooterBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableFooterBackground'
+      Preparing method cellTableHeaderBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableHeaderBackground'
+      Preparing method cellTableLoading
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableLoading'
+      Preparing method cellTableSelectedBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSelectedBackground'
+      Preparing method cellTableSortAscending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortAscending'
+      Preparing method cellTableSortDescending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortDescending'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+         Generating method body for image()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.AbstractCellTable.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.cellview.client.AbstractCellTable.Template
+         Generating method body for div()
+         Generating method body for tbody()
+         Generating method body for td()
+         Generating method body for tdBothAlign()
+         Generating method body for tdHorizontalAlign()
+         Generating method body for tdVerticalAlign()
+         Generating method body for tfoot()
+         Generating method body for thead()
+         Generating method body for tr()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.i18n.client.CurrencyList
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385631735144.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385631735144.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385631735144_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.FormPanel.IFrameTemplate
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.FormPanel.IFrameTemplate
+         Generating method body for get()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,07 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632104617.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632104617.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632104617_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632230906.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632230906.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632230906_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,09 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632515668.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632515668.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632515668_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632558157.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632558157.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632558157_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632565605.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632565605.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632565605_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632571597.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632571597.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632571597_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632622353.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632622353.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385632622353_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385634448048.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385634448048.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385634448048_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385634459428.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385634459428.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385634459428_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385634781284.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385634781284.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385634781284_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView.EditorViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385635729559.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385635729559.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.matthieuhostache.trollvseditor.client.EditorView_EditorViewUiBinderImpl_designTime1385635729559_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units

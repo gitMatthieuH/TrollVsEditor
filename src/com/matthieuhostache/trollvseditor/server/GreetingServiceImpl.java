@@ -11,6 +11,10 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.collections.ListUtils;
+import org.apache.commons.lang.ArrayUtils;
+import org.apache.tools.ant.util.StringUtils;
+
 import com.matthieuhostache.trollvseditor.client.GreetingService;
 import com.matthieuhostache.trollvseditor.shared.Troll;
 import com.thoughtworks.xstream.XStream;
@@ -29,14 +33,18 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 	public String greetServer(ArrayList<Troll> trollList) throws IllegalArgumentException {
 		String etatSauvegarde = "Erreur lors de la sauvegarde";
 		
-		this.savedTrollList = trollList;
+		this.savedTrollList = greetServer("salut");
+		
+		for(Troll troll: trollList) {
+    		this.savedTrollList.add(troll);
+		}
 		
 		XStream xstream = new XStream();
 
         try{   
         	FileOutputStream outputStream = new FileOutputStream("trolls.xml");
             OutputStreamWriter writer = new OutputStreamWriter(outputStream, Charset.forName("UTF-8"));
-        	xstream.toXML(trollList, writer);
+        	xstream.toXML(this.savedTrollList, writer);
         	etatSauvegarde = "Sauvegarde OK";
         }catch (Exception e){
             System.err.println("Error in XML Write: " + e.getMessage());
@@ -55,7 +63,11 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
             FileInputStream fis = new FileInputStream(new File("trolls.xml"));
             
             try {
-            	 trolls = (ArrayList<Troll>) xstream.fromXML(fis);
+            	trolls = (ArrayList<Troll>) xstream.fromXML(fis);
+
+            	/*for(Troll troll: trolls) {
+            		this.savedTrollList.add(troll);
+				}*/
                 System.out.println(trolls.toString());
  
             } finally {
