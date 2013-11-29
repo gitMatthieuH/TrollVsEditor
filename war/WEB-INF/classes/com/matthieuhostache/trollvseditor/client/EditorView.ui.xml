@@ -6,13 +6,14 @@
 			font-weight: bold;
 		}
 	</ui:style>
-	<g:HTMLPanel>
-		<g:TabPanel width="1091px" height="800px" ui:field="tabPanel">
-			<g:Tab ui:field="editorTab" text="Création de Trolls">
-				<g:FormPanel height="619px" width="1048px" ui:field="formPanel">
-        	<g:VerticalPanel width="1076px" height="492px" horizontalAlignment="ALIGN_CENTER">
-        		<g:HorizontalPanel>
-        			<g:VerticalPanel width="256px" height="540px" horizontalAlignment="ALIGN_CENTER"> 
+	<g:HTMLPanel width="100%">
+		<g:TabPanel width="100%" height="800px" ui:field="tabPanel">
+			<g:Tab text="New tab">
+				<g:VerticalPanel width="100%" height="3cm" horizontalAlignment="ALIGN_CENTER">
+					<g:FormPanel ui:field="formPanel" width="100%">
+        	<g:VerticalPanel width="600px" height="492px" horizontalAlignment="ALIGN_CENTER">
+        		<g:HorizontalPanel horizontalAlignment="ALIGN_CENTER" width="600px">
+        			<g:VerticalPanel width="338px" height="540px" horizontalAlignment="ALIGN_CENTER"> 
                     <g:Label text="Nom du Troll" width="106px" height="13px">nom du troll</g:Label>   
                     <g:TextBox ui:field="name" width="132px" height="29px"  />
                     <g:Label text="Race :"/>
@@ -66,7 +67,7 @@
                     </g:HorizontalPanel>  
 
 				</g:VerticalPanel>
-        			<g:VerticalPanel horizontalAlignment="ALIGN_CENTER" height="414px">
+        			<g:VerticalPanel horizontalAlignment="ALIGN_CENTER" height="414px" width="313px">
         			<g:Image ui:field="pic" url="img/hebus.jpg" width="200px" height=""/>
         			<g:Label text="20" ui:field="ptsCompet"/>
         			<g:Label text="Botte Secrète" ui:field="compet1name"/>
@@ -82,9 +83,9 @@
         				<g:Button text="+" width="40px" ui:field="compet2p"/>
         			</g:HorizontalPanel>
         		</g:VerticalPanel>
-        			<g:Cell width="">
+        			<g:VerticalPanel width="130px" height="412px" horizontalAlignment="ALIGN_CENTER">
         				<g:ListBox visibleItemCount="5" ui:field="trollsToAdd" width="100"/>
-        			</g:Cell>
+        			</g:VerticalPanel>
         		</g:HorizontalPanel>
         		<g:HorizontalPanel>
                     	<g:Button height="34px" width="75px" text="Ajouter" ui:field="addtroll"/>
@@ -92,9 +93,10 @@
                     </g:HorizontalPanel>
         	</g:VerticalPanel>
         </g:FormPanel>
+				</g:VerticalPanel>
 			</g:Tab>
 			<g:Tab text="Listing Trolls">
-				<g:VerticalPanel width="1057px" height="601px">
+				<g:VerticalPanel width="100%" height="601px" horizontalAlignment="ALIGN_CENTER">
 					<g:HorizontalPanel width="723px">
 						<g:ListBox visibleItemCount="5" width="173px" height="154px" ui:field="listTrolls"/>
 						<g:Image url="img/hebus.jpg" width="257px" height="271px"/>

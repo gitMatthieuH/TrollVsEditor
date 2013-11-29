@@ -407,10 +407,14 @@ public class EditorView extends Composite {
 	@UiHandler("tabPanel")
 	void onTabSelection(SelectionEvent<Integer> event) {
 		System.out.println("tab "+event.getSelectedItem());
+		if (event.getSelectedItem() == 0) {
+			trollsToAdd.clear();
+		}
 	  if (event.getSelectedItem() == 1) {
 		  getTrollsInfosFromServer();
 		  listTrolls.clear();
 		  dataProvider.refresh();
+		  initEditor();
 		  
 	  }
 	}
@@ -422,6 +426,7 @@ public class EditorView extends Composite {
 			int trollIndex = listTrolls.getSelectedIndex();
 			tabPanel.selectTab(0);
 			ArrayList<Troll> currentsTrolls = new ArrayList<Troll>();
+			currentsTrolls.clear();
 			currentsTrolls.add(trollList.get(trollIndex));
 			currentTrollsId.clear();
 			currentTrollsId.add(trollIndex);
@@ -451,7 +456,16 @@ public class EditorView extends Composite {
 		}
 	}
 	
-	
+	void initEditor() {
+		name.setValue("");
+		race.setSelectedIndex(0);
+		attaque.setValue(0);
+		degats.setValue(0);
+		esquive.setValue(0);
+		regeneration.setValue(0);
+		compet1.setValue(0);
+		compet2.setValue(0);
+	}
 	
 	void initEditor(int trollId) {
 		Troll currentTroll = trollList.get(trollId);
@@ -461,6 +475,8 @@ public class EditorView extends Composite {
 		degats.setValue(currentTroll.getDeguat());
 		esquive.setValue(currentTroll.getEsquive());
 		regeneration.setValue(currentTroll.getRegeneration());
+		compet1.setValue(currentTroll.getCompetence1());
+		compet2.setValue(currentTroll.getCompetence2());
 	}
 	@UiHandler("trollsToAdd")
 	void onTrollsToAddClick(ClickEvent event) {
@@ -468,5 +484,7 @@ public class EditorView extends Composite {
 		initEditor(idInTrollList);
 		elemOnEdit = trollsToAdd.getSelectedIndex();
 	}
+	
+	
 	
 }

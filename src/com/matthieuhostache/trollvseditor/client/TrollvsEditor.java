@@ -54,6 +54,7 @@ public class TrollvsEditor implements EntryPoint {
 		SINGLETON = this;
 		//RootPanel.get().add(mainEditor);
 		RootPanel.get("navigation").add(mainEditor);
+		mainEditor.addStyleName("table-center");
 	
 	}
 	

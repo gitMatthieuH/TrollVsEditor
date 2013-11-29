@@ -1,9 +1,21 @@
 <list>
   <com.matthieuhostache.trollvseditor.shared.Troll>
-    <nom>yoooooo</nom>
+    <nom>plop</nom>
     <id>0</id>
     <race>0</race>
-    <attaque>2</attaque>
+    <attaque>1</attaque>
+    <deguat>0</deguat>
+    <esquive>0</esquive>
+    <regeneration>0</regeneration>
+    <pointdevie>0</pointdevie>
+    <competence1>5</competence1>
+    <competence2>2</competence2>
+  </com.matthieuhostache.trollvseditor.shared.Troll>
+  <com.matthieuhostache.trollvseditor.shared.Troll>
+    <nom>bob</nom>
+    <id>0</id>
+    <race>0</race>
+    <attaque>0</attaque>
     <deguat>0</deguat>
     <esquive>0</esquive>
     <regeneration>0</regeneration>
@@ -12,14 +24,62 @@
     <competence2>0</competence2>
   </com.matthieuhostache.trollvseditor.shared.Troll>
   <com.matthieuhostache.trollvseditor.shared.Troll>
-    <nom>yééééé</nom>
+    <nom>azerty</nom>
     <id>0</id>
     <race>0</race>
     <attaque>0</attaque>
     <deguat>0</deguat>
-    <esquive>2</esquive>
+    <esquive>0</esquive>
     <regeneration>0</regeneration>
     <pointdevie>0</pointdevie>
+    <competence1>0</competence1>
+    <competence2>0</competence2>
+  </com.matthieuhostache.trollvseditor.shared.Troll>
+  <com.matthieuhostache.trollvseditor.shared.Troll>
+    <nom>kiri</nom>
+    <id>0</id>
+    <race>0</race>
+    <attaque>0</attaque>
+    <deguat>0</deguat>
+    <esquive>0</esquive>
+    <regeneration>0</regeneration>
+    <pointdevie>0</pointdevie>
+    <competence1>0</competence1>
+    <competence2>0</competence2>
+  </com.matthieuhostache.trollvseditor.shared.Troll>
+  <com.matthieuhostache.trollvseditor.shared.Troll>
+    <nom>edgard</nom>
+    <id>0</id>
+    <race>0</race>
+    <attaque>0</attaque>
+    <deguat>0</deguat>
+    <esquive>0</esquive>
+    <regeneration>0</regeneration>
+    <pointdevie>0</pointdevie>
+    <competence1>0</competence1>
+    <competence2>0</competence2>
+  </com.matthieuhostache.trollvseditor.shared.Troll>
+  <com.matthieuhostache.trollvseditor.shared.Troll>
+    <nom>hello!</nom>
+    <id>0</id>
+    <race>-1</race>
+    <attaque>0</attaque>
+    <deguat>0</deguat>
+    <esquive>0</esquive>
+    <regeneration>0</regeneration>
+    <pointdevie>2</pointdevie>
+    <competence1>0</competence1>
+    <competence2>0</competence2>
+  </com.matthieuhostache.trollvseditor.shared.Troll>
+  <com.matthieuhostache.trollvseditor.shared.Troll>
+    <nom>goodbye:)</nom>
+    <id>0</id>
+    <race>-1</race>
+    <attaque>0</attaque>
+    <deguat>0</deguat>
+    <esquive>0</esquive>
+    <regeneration>0</regeneration>
+    <pointdevie>2</pointdevie>
     <competence1>0</competence1>
     <competence2>0</competence2>
   </com.matthieuhostache.trollvseditor.shared.Troll>
