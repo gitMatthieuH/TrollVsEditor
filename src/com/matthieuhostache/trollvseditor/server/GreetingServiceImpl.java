@@ -33,10 +33,24 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 	public String greetServer(ArrayList<Troll> trollList) throws IllegalArgumentException {
 		String etatSauvegarde = "Erreur lors de la sauvegarde";
 		
-		this.savedTrollList = greetServer("salut");
-		
+		System.out.println("Sauvegarde");
+
+		this.savedTrollList = greetServer("");
+		ArrayList<Troll> tList = this.savedTrollList;
+
 		for(Troll troll: trollList) {
-    		this.savedTrollList.add(troll);
+			int trollToReplaceIndex = -1;
+			for(Troll troll2 : tList) {
+				if (troll.getNom().compareTo(troll2.getNom()) == 0) {
+					trollToReplaceIndex = tList.indexOf(troll2);
+				}
+			}
+			
+			if (trollToReplaceIndex != -1)
+				savedTrollList.set(trollToReplaceIndex, troll);
+			else
+				savedTrollList.add(troll);
+				
 		}
 		
 		XStream xstream = new XStream();
@@ -64,12 +78,6 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
             
             try {
             	trolls = (ArrayList<Troll>) xstream.fromXML(fis);
-
-            	/*for(Troll troll: trolls) {
-            		this.savedTrollList.add(troll);
-				}*/
-                System.out.println(trolls.toString());
- 
             } finally {
                 fis.close();
             }
@@ -79,9 +87,37 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 		        ioe.printStackTrace();
 		    }
 		
+		
+		
 		System.out.println("output : " + trolls.get(0).getNom());
 		
 		return trolls;
+	}
+	
+	public String delTroll(String name) throws IllegalArgumentException {
+		
+		System.out.println("Suppression");
+		
+		this.savedTrollList = greetServer("");
+		for(Troll troll: this.savedTrollList) {
+			//System.out.println(troll.getNom() + " " + name);
+			if (troll.getNom().compareTo(name) == 0)
+				//System.out.println("if");
+				this.savedTrollList.remove(savedTrollList.indexOf(troll));
+		}
+	
+		XStream xstream = new XStream();
+
+        try{   
+        	FileOutputStream outputStream = new FileOutputStream("trolls.xml");
+            OutputStreamWriter writer = new OutputStreamWriter(outputStream, Charset.forName("UTF-8"));
+        	xstream.toXML(this.savedTrollList, writer);
+        }catch (Exception e){
+            System.err.println("Error in XML Write: " + e.getMessage());
+        }
+        
+		return null;
+
 	}
 
 	/**
@@ -98,4 +134,6 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 		return html.replaceAll("&", "&amp;").replaceAll("<", "&lt;")
 				.replaceAll(">", "&gt;");
 	}
+
+	
 }

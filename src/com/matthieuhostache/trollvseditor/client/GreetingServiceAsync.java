@@ -14,4 +14,7 @@ public interface GreetingServiceAsync {
 	
 	void greetServer(String input, AsyncCallback<ArrayList<Troll>> callback)
 			throws IllegalArgumentException;
+	
+	void delTroll(String name, AsyncCallback<String> callback)
+			throws IllegalArgumentException;
 }

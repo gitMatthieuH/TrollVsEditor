@@ -14,4 +14,5 @@ import com.matthieuhostache.trollvseditor.shared.Troll;
 public interface GreetingService extends RemoteService {
 	String greetServer(ArrayList<Troll> trollList) throws IllegalArgumentException;
 	ArrayList<Troll> greetServer(String name) throws IllegalArgumentException;
+	String delTroll(String name) throws IllegalArgumentException;
 }

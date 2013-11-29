@@ -43,7 +43,8 @@ public class EditorView extends Composite {
 	
 	private int caracPoints;
 	private int caracSpePoints;
-	private ArrayList<Troll> currentsTrolls;
+	private ArrayList<Integer> currentTrollsId = new ArrayList<Integer>();
+	private int elemOnEdit = -1;
 	
 	private ListDataProvider<Troll> dataProvider = new ListDataProvider<Troll>();
 
@@ -55,7 +56,6 @@ public class EditorView extends Composite {
 		initWidget(uiBinder.createAndBindUi(this));
 		tabPanel.selectTab(0);
 		initTable();
-		trollsToAdd.addItem("Aucun troll créé");
 	}
 
 	@UiField FormPanel formPanel;
@@ -84,34 +84,41 @@ public class EditorView extends Composite {
 	@UiField TabPanel tabPanel;
 	@UiField ListBox listTrolls;
 	@UiField ListBox trollsToAdd;
-	@UiField Button button;
+	@UiField Button editBn;
+	@UiField Button delBtn;
 
 	public EditorView(String firstName) {
 		initWidget(uiBinder.createAndBindUi(this));
 		//savetrolls.setText(firstName);
 		this.caracPoints = 50;
 		this.caracSpePoints = 20;
+		
 	}
 	
 	@UiHandler("addtroll")
 	void onAddtrollsClick(ClickEvent event) {
-		Troll trollToSave = new Troll(name.getValue(),race.getSelectedIndex(),attaque.getValue(),degats.getValue(),esquive.getValue(),regeneration.getValue(),pointdevie.getValue(),compet1.getValue(),compet2.getValue());
-		trollList.add(trollToSave);
-		System.out.println(trollsToAdd.getItemText(0));
-		
-		trollsToAdd.addItem(trollToSave.getNom());
+		Troll trollToS = new Troll(name.getValue(),race.getSelectedIndex(),attaque.getValue(),degats.getValue(),esquive.getValue(),regeneration.getValue(),pointdevie.getValue(),compet1.getValue(),compet2.getValue());
+		trollList.add(trollToS);
+		trollsToAdd.addItem(trollToS.getNom());
 	}
 
 	@UiHandler("savetrolls")
 	void onSavetrollsClick(ClickEvent event) {
-		if (trollsToAdd.getItemText(0) == "Aucun troll créé")
-			trollsToAdd.clear();
+		System.out.println("onSavetrollsClick ");
+		System.out.println("elemOnEdit "+this.elemOnEdit);
+		if (elemOnEdit != -1) {
+			System.out.println("if ");
+			System.out.println("esquive " + esquive.getValue());
+			Troll trollToSave = new Troll(name.getValue(),race.getSelectedIndex(),attaque.getValue(),degats.getValue(),esquive.getValue(),regeneration.getValue(),pointdevie.getValue(),compet1.getValue(),compet2.getValue());
+			System.out.println("esquive 2 " + trollToSave.getEsquive());
+			this.trollList.set(elemOnEdit, trollToSave);
+			
+		}
 		formPanel.submit();
 	}
 	
 	@UiHandler("formPanel")
 	void onFormPanelSubmit(SubmitEvent event) {
-		
 		TrollvsEditor.get().sendTrollsInfosToServer(this.trollList);
 		
 	}
@@ -362,7 +369,7 @@ public class EditorView extends Composite {
 	}
 	
 	public void getTrollsInfosFromServer() {
-		greetingService.greetServer("salut", new AsyncCallback<ArrayList<Troll>>() {
+		greetingService.greetServer("", new AsyncCallback<ArrayList<Troll>>() {
 			@Override
 			public void onSuccess(ArrayList<Troll> result) {
 				//listTrolls.clear();
@@ -399,29 +406,67 @@ public class EditorView extends Composite {
 	
 	@UiHandler("tabPanel")
 	void onTabSelection(SelectionEvent<Integer> event) {
+		System.out.println("tab "+event.getSelectedItem());
 	  if (event.getSelectedItem() == 1) {
 		  getTrollsInfosFromServer();
 		  listTrolls.clear();
 		  dataProvider.refresh();
+		  
 	  }
 	}
 	
-	@UiHandler("listTrolls")
-	void onListTrollsChange(ChangeEvent event) {
-		int trollIndex = listTrolls.getSelectedIndex();
-		
-		currentsTrolls.add(trollList.get(trollIndex));
-		
-	}
-	@UiHandler("button")
-	void onButtonClick(ClickEvent event) {
-		System.out.println(listTrolls.getSelectedIndex());
+	
+	@UiHandler("editBn")
+	void onEditBnClick(ClickEvent event) {
 		if (listTrolls.getSelectedIndex() != -1) {
+			int trollIndex = listTrolls.getSelectedIndex();
 			tabPanel.selectTab(0);
+			ArrayList<Troll> currentsTrolls = new ArrayList<Troll>();
+			currentsTrolls.add(trollList.get(trollIndex));
+			currentTrollsId.clear();
+			currentTrollsId.add(trollIndex);
+			trollsToAdd.clear();
 			for(Troll troll : currentsTrolls) {
 				trollsToAdd.addItem(troll.getNom());
 			}
-			
 		}
 	}
+	
+	@UiHandler("delBtn")
+	void onDelBtnClick(ClickEvent event) {
+		if (listTrolls.getSelectedIndex() != -1) {
+			int trollIndex = listTrolls.getSelectedIndex();
+			String name = trollList.get(trollIndex).getNom();
+			greetingService.delTroll(name, new AsyncCallback<String>(){
+				@Override
+				public void onSuccess(String result) {
+					
+				}
+				
+				@Override
+				public void onFailure(Throwable caught) {
+					
+				}
+			});
+		}
+	}
+	
+	
+	
+	void initEditor(int trollId) {
+		Troll currentTroll = trollList.get(trollId);
+		name.setValue(currentTroll.getNom());
+		race.setSelectedIndex(currentTroll.getRace());
+		attaque.setValue(currentTroll.getAttaque());
+		degats.setValue(currentTroll.getDeguat());
+		esquive.setValue(currentTroll.getEsquive());
+		regeneration.setValue(currentTroll.getRegeneration());
+	}
+	@UiHandler("trollsToAdd")
+	void onTrollsToAddClick(ClickEvent event) {
+		int idInTrollList = currentTrollsId.get(trollsToAdd.getSelectedIndex());
+		initEditor(idInTrollList);
+		elemOnEdit = trollsToAdd.getSelectedIndex();
+	}
+	
 }

@@ -99,8 +99,8 @@
 						<g:ListBox visibleItemCount="5" width="173px" height="154px" ui:field="listTrolls"/>
 						<g:Image url="img/hebus.jpg" width="257px" height="271px"/>
 						<g:VerticalPanel>
-							<g:Button text="Editer" ui:field="button"/>
-							<g:Button text="Supprimer"/>
+							<g:Button text="Editer" ui:field="editBn"/>
+							<g:Button text="Supprimer" ui:field="delBtn"/>
 						</g:VerticalPanel>
 					</g:HorizontalPanel>
 					<p1:CellTable ui:field="cellTable" width="480px" height="206px"/>
