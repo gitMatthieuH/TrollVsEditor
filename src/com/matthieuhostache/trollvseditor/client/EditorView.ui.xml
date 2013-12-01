@@ -8,7 +8,7 @@
 	</ui:style>
 	<g:HTMLPanel width="100%">
 		<g:TabPanel width="100%" height="800px" ui:field="tabPanel">
-			<g:Tab text="New tab">
+			<g:Tab text="Editeur">
 				<g:VerticalPanel width="100%" height="3cm" horizontalAlignment="ALIGN_CENTER">
 					<g:FormPanel ui:field="formPanel" width="100%">
         	<g:VerticalPanel width="600px" height="492px" horizontalAlignment="ALIGN_CENTER">
@@ -99,17 +99,17 @@
 				<g:VerticalPanel width="100%" height="601px" horizontalAlignment="ALIGN_CENTER">
 					<g:HorizontalPanel width="723px">
 						<g:ListBox visibleItemCount="5" width="173px" height="154px" ui:field="listTrolls"/>
-						<g:Image url="img/hebus.jpg" width="257px" height="271px"/>
+						<g:Image url="img/hebus.jpg" width="220px" height=""/>
 						<g:VerticalPanel>
 							<g:Button text="Editer" ui:field="editBn"/>
 							<g:Button text="Supprimer" ui:field="delBtn"/>
 						</g:VerticalPanel>
 					</g:HorizontalPanel>
-					<p1:CellTable ui:field="cellTable" width="480px" height="206px"/>
+					<p1:CellTable ui:field="cellTable" width="480px" height="100px"/>
 				</g:VerticalPanel>
 			</g:Tab>
 			<g:Tab text="Chasseur de têtes">
-				<g:FlowPanel width="5cm" height="3cm"/>
+				<g:VerticalPanel width="100%" height="3cm" ui:field="facesContener" horizontalAlignment="ALIGN_CENTER"/>
 			</g:Tab>
 		</g:TabPanel>  
  

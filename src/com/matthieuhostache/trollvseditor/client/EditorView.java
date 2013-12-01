@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
+import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiHandler;
@@ -13,8 +14,10 @@ import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.FormPanel;
+import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.IntegerBox;
 import com.google.gwt.user.client.ui.ListBox;
+import com.google.gwt.user.client.ui.PopupPanel;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.gwt.user.client.ui.FormPanel.SubmitEvent;
@@ -30,6 +33,10 @@ import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.event.dom.client.ChangeEvent;
 import com.google.gwt.user.client.ui.TabPanel;
 import com.google.gwt.event.logical.shared.SelectionEvent;
+import com.google.gwt.user.client.ui.FlowPanel;
+import com.google.gwt.user.client.ui.HorizontalPanel;
+import com.google.gwt.user.client.ui.Grid;
+import com.google.gwt.user.client.ui.VerticalPanel;
 
 public class EditorView extends Composite {
 
@@ -86,6 +93,7 @@ public class EditorView extends Composite {
 	@UiField ListBox trollsToAdd;
 	@UiField Button editBn;
 	@UiField Button delBtn;
+	@UiField VerticalPanel facesContener;
 
 	public EditorView(String firstName) {
 		initWidget(uiBinder.createAndBindUi(this));
@@ -251,8 +259,13 @@ public class EditorView extends Composite {
 	@UiHandler("race")
 	void onRaceChange(ChangeEvent event) {
 		String picUrl;
+		pic.setUrl(getUrlRace(race.getSelectedIndex()));
+	}
+	
+	public String getUrlRace(int index) {
+		String picUrl;
 		
-		switch (race.getSelectedIndex())
+		switch (index)
 		{
 			
 		  case 0:
@@ -285,9 +298,37 @@ public class EditorView extends Composite {
 			  compet1name.setText("Botte Secrète");
 			  compet2name.setText("Hypnotisme");
 		}
-		
-		pic.setUrl(picUrl);
+		return picUrl;
 	}
+	
+	public String getNameRace(int index) {
+		String name;
+		
+		switch (index)
+		{
+			
+		  case 0:
+			  name = "Skrim";
+		    break;
+		  case 1:
+			  name = "img/tinette.jpg";
+		    break;
+		  case 2:
+			  name = "img/trollf.jpg";
+		    break;
+		  case 3:
+			  name = "img/waha.jpg";
+			  break;
+		  case 5:
+			  name = "img/tetram.jpg";
+			  break;
+		  default:
+			  name = "img/tetram.jpg";
+		}
+		return name;
+	}
+	
+	
 	@UiHandler("addtroll")
 	void onAddtrollClick(ClickEvent event) {
 	}
@@ -368,10 +409,10 @@ public class EditorView extends Composite {
 		    cellTable.addColumn(competence2Column, "Compétence 2");
 	}
 	
-	public void getTrollsInfosFromServer() {
+	public void getTrollsInfosFromServer(final int tabIndex) {
 		greetingService.greetServer("", new AsyncCallback<ArrayList<Troll>>() {
 			@Override
-			public void onSuccess(ArrayList<Troll> result) {
+			public void onSuccess(final ArrayList<Troll> result) {
 				//listTrolls.clear();
 				
 				trollList = result;
@@ -379,19 +420,83 @@ public class EditorView extends Composite {
 				for(Troll troll: result) {
 					listTrolls.addItem(troll.getNom());
 				}
+				
+				System.out.println("index : "+tabIndex);
+				
+				switch (tabIndex)
+				{
+					
+				  case 1:
+					dataProvider = new ListDataProvider<Troll>();    
+					dataProvider.addDataDisplay(cellTable);
+
+					List<Troll> list = dataProvider.getList();
+					list.add(trollList.get(0));
+					initWidget(cellTable);
+					break;
+				  case 2:
+					  double nbColumns = 6;
+					  int nbRows = (int) Math.ceil(result.size()/nbColumns);
+					  System.out.print("nbRows :" + nbRows);
+				      // Create a grid
+				      Grid grid = new Grid(nbRows, (int)nbColumns);
+				      facesContener.clear();
+					  facesContener.add(grid);
+					  int idTroll = 0;
+					  for (int row = 0; row < nbRows; row++) {
+				         for (int col = 0; col < nbColumns; col++) {
+				        	final Troll troll = result.get(idTroll);
+				        	final int savedIdTroll = idTroll;
+				        	Image image = new Image();
+							image.setUrl(getUrlRace(troll.getRace()));
+							image.setWidth("150px");
+							image.setAltText("Nom : "+ result.get(idTroll).getNom());
+							image.addClickHandler(new ClickHandler() {
+							  @Override
+							  public void onClick(ClickEvent event) {
+								  PopupPanel popup = new PopupPanel(true);
+								  VerticalPanel vp = new VerticalPanel();
+								  popup.add(vp);
+								  HorizontalPanel hp = new HorizontalPanel();
+								  vp.add(new HTML(displayTroll(troll)));
+								  vp.add(hp);
+								  Button editBtn = new Button("Editer");
+								  editBtn.addClickHandler(new ClickHandler() {
+									 @Override
+									 public void onClick(ClickEvent event) {
+										tabPanel.selectTab(0);
+										ArrayList<Troll> currentsTrolls = new ArrayList<Troll>();
+										currentsTrolls.clear();
+										currentsTrolls.add(troll);
+										currentTrollsId.clear();
+										currentTrollsId.add(savedIdTroll);
+										trollsToAdd.clear();
+										for(Troll troll : currentsTrolls) {
+											trollsToAdd.addItem(troll.getNom());
+										}
+										trollsToAdd.setSelectedIndex(0);
+										int idInTrollList = currentTrollsId.get(trollsToAdd.getSelectedIndex());
+										initEditor(idInTrollList);
+										elemOnEdit = trollsToAdd.getSelectedIndex();
+									 }
+								  });
+								  
+								  Button delBtn = new Button("Supprimer");
+								  hp.add(editBtn);
+								  hp.add(delBtn);
+								  popup.center();
+								  popup.show();
+							  }
+							});
+				            grid.setWidget(row, col, image);
+				            idTroll++;
+				         }
+				      }
+				  default:
+				}
 						
 				
-			    dataProvider = new ListDataProvider<Troll>();
-			    
-			    dataProvider.addDataDisplay(cellTable);
-			    
-			    List<Troll> list = dataProvider.getList();
-			    
-				for (Troll troll : result) {
-			      list.add(troll);
-			    }
-				
-				initWidget(cellTable);
+			   
 				
 			}
 			
@@ -410,14 +515,17 @@ public class EditorView extends Composite {
 		if (event.getSelectedItem() == 0) {
 			trollsToAdd.clear();
 		}
-	  if (event.getSelectedItem() == 1) {
-		  getTrollsInfosFromServer();
+		if (event.getSelectedItem() == 1) {
+		  getTrollsInfosFromServer(1);
 		  listTrolls.clear();
 		  dataProvider.refresh();
-		  initEditor();
-		  
-	  }
+		  initEditor();  
+		}
+		if (event.getSelectedItem() == 2) {
+		  getTrollsInfosFromServer(2);
+		}
 	}
+	
 	
 	
 	@UiHandler("editBn")
@@ -434,8 +542,14 @@ public class EditorView extends Composite {
 			for(Troll troll : currentsTrolls) {
 				trollsToAdd.addItem(troll.getNom());
 			}
+			trollsToAdd.setSelectedIndex(0);
+			int idInTrollList = currentTrollsId.get(trollsToAdd.getSelectedIndex());
+			initEditor(idInTrollList);
+			elemOnEdit = trollsToAdd.getSelectedIndex();
 		}
 	}
+	
+	
 	
 	@UiHandler("delBtn")
 	void onDelBtnClick(ClickEvent event) {
@@ -487,4 +601,37 @@ public class EditorView extends Composite {
 	
 	
 	
+	@UiHandler("listTrolls")
+	void onListTrollsClick(ClickEvent event) {
+		int trollIndex = listTrolls.getSelectedIndex();
+		dataProvider.refresh();
+		dataProvider = new ListDataProvider<Troll>();    
+		dataProvider.addDataDisplay(cellTable);
+
+		List<Troll> list = dataProvider.getList();
+		list.add(trollList.get(trollIndex));
+		initWidget(cellTable);
+	}
+	
+	String displayTroll(Troll troll) {
+		String nom = troll.getNom();
+		String race = getNameRace(troll.getRace());
+		int attaque = troll.getAttaque();
+		int degats = troll.getDeguat();
+		int esquive = troll.getEsquive();
+		int regen = troll.getRegeneration();
+		int pointdevie = troll.getPointdevie();
+		int compet1 = troll.getCompetence1();
+		int compet2 = troll.getCompetence1();
+		String infos = "Nom : "+nom+"<br>";
+		infos += "Race : "+race+"<br>";
+		infos += "Attaque : "+attaque+"<br>";
+		infos += "Degats : "+degats+"<br>";
+		infos += "Esquive : "+esquive+"<br>";
+		infos += "Regeneration : "+regen+"<br>";
+		infos += "Points de vie : "+pointdevie+"<br>";
+		infos += "Compétence 1 : "+compet1+"<br>";
+		infos += "Compétence 2 : "+compet2+"<br>";
+		return infos;
+	}
 }
