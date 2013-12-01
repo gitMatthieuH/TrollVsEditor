@@ -9,7 +9,6 @@ import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiHandler;
-import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
@@ -22,18 +21,14 @@ import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.gwt.user.client.ui.FormPanel.SubmitEvent;
 import com.matthieuhostache.trollvseditor.shared.Troll;
-import com.google.gwt.user.cellview.client.CellList;
 import com.google.gwt.user.cellview.client.CellTable;
 import com.google.gwt.user.cellview.client.TextColumn;
 import com.google.gwt.view.client.ListDataProvider;
-import com.google.gwt.cell.client.AbstractCell;
-import com.google.gwt.safehtml.shared.SafeHtmlBuilder;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.event.dom.client.ChangeEvent;
 import com.google.gwt.user.client.ui.TabPanel;
 import com.google.gwt.event.logical.shared.SelectionEvent;
-import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.Grid;
 import com.google.gwt.user.client.ui.VerticalPanel;
@@ -43,8 +38,8 @@ public class EditorView extends Composite {
 	private static EditorViewUiBinder uiBinder = GWT
 			.create(EditorViewUiBinder.class);
 	
-	private final GreetingServiceAsync greetingService = GWT
-			.create(GreetingService.class);
+	private final TrollServiceAsync TrollService = GWT
+			.create(TrollService.class);
 	
 	private ArrayList<Troll> trollList = new ArrayList<Troll>();
 	
@@ -123,8 +118,6 @@ public class EditorView extends Composite {
 	 */
 	@UiHandler("savetrolls")
 	void onSavetrollsClick(ClickEvent event) {
-		System.out.println("onSavetrollsClick ");
-		System.out.println("elemOnEdit "+this.elemOnEdit);
 		if (elemOnEdit != -1) {
 			Troll trollToSave = new Troll(name.getValue(),race.getSelectedIndex(),attaque.getValue(),degats.getValue(),esquive.getValue(),regeneration.getValue(),pointdevie.getValue(),compet1.getValue(),compet2.getValue());
 			this.trollList.set(elemOnEdit, trollToSave);
@@ -330,7 +323,6 @@ public class EditorView extends Composite {
 	 */
 	@UiHandler("race")
 	void onRaceChange(ChangeEvent event) {
-		String picUrl;
 		pic.setUrl(getUrlRace(race.getSelectedIndex()));
 	}
 	
@@ -495,8 +487,9 @@ public class EditorView extends Composite {
 	 * en forme en fonction de l'onglet fournit en paramètre
 	 * @param tabIndex
 	 */
+	
 	public void getTrollsInfosFromServer(final int tabIndex) {
-		greetingService.greetServer("", new AsyncCallback<ArrayList<Troll>>() {
+		TrollService.getTrolls("", new AsyncCallback<ArrayList<Troll>>() {
 			@Override
 			public void onSuccess(final ArrayList<Troll> result) {
 				//listTrolls.clear();
@@ -521,7 +514,6 @@ public class EditorView extends Composite {
 				  case 2:
 					  double nbColumns = 6;
 					  int nbRows = (int) Math.ceil(result.size()/nbColumns);
-					  System.out.print("nbRows :" + nbRows);
 				      Grid grid = new Grid(nbRows, (int)nbColumns);
 				      facesContener.clear();
 					  facesContener.add(grid);
@@ -571,7 +563,7 @@ public class EditorView extends Composite {
 									 @Override
 									 public void onClick(ClickEvent event) {	 
 										 String name = troll.getNom();
-										 greetingService.delTroll(name, new AsyncCallback<String>(){
+										 TrollService.delTroll(name, new AsyncCallback<String>(){
 											@Override
 											public void onSuccess(String result) {
 												getTrollsInfosFromServer(2);
@@ -613,7 +605,6 @@ public class EditorView extends Composite {
 	 */
 	@UiHandler("tabPanel")
 	void onTabSelection(SelectionEvent<Integer> event) {
-		System.out.println("tab "+event.getSelectedItem());
 		if (event.getSelectedItem() == 0) {
 			trollsToAdd.clear();
 		}
@@ -637,12 +628,10 @@ public class EditorView extends Composite {
 	void onEditBnClick(ClickEvent event) {
 		if (listTrolls.getSelectedIndex() != -1) {
 			int trollIndex = listTrolls.getSelectedIndex();
-			System.out.println("trollIndex : " + trollIndex);
 			tabPanel.selectTab(0);
 			ArrayList<Troll> currentsTrolls = new ArrayList<Troll>();
 			currentsTrolls.clear();
 			currentsTrolls.add(trollList.get(trollIndex));
-			System.out.println("trollList.get(trollIndex) : " + trollList.get(trollIndex));
 			currentTrollsId.clear();
 			currentTrollsId.add(trollIndex);
 			trollsToAdd.clear();
@@ -665,10 +654,8 @@ public class EditorView extends Composite {
 	void onDelBtnClick(ClickEvent event) {
 		if (listTrolls.getSelectedIndex() != -1) {
 			int trollIndex = listTrolls.getSelectedIndex();
-			System.out.println("trollIndex : " + trollIndex);
 			String name = trollList.get(trollIndex).getNom();
-			System.out.println("name client : " + name);
-			greetingService.delTroll(name, new AsyncCallback<String>(){
+			TrollService.delTroll(name, new AsyncCallback<String>(){
 				@Override
 				public void onSuccess(String result) {
 					getTrollsInfosFromServer(1);

@@ -23,4 +23,16 @@
     <competence1>2</competence1>
     <competence2>0</competence2>
   </com.matthieuhostache.trollvseditor.shared.Troll>
+  <com.matthieuhostache.trollvseditor.shared.Troll>
+    <nom>test</nom>
+    <id>0</id>
+    <race>0</race>
+    <attaque>0</attaque>
+    <deguat>0</deguat>
+    <esquive>0</esquive>
+    <regeneration>0</regeneration>
+    <pointdevie>0</pointdevie>
+    <competence1>0</competence1>
+    <competence2>0</competence2>
+  </com.matthieuhostache.trollvseditor.shared.Troll>
 </list>

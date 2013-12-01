@@ -8,7 +8,7 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.matthieuhostache.trollvseditor.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>com.matthieuhostache.trollvseditor.server.TrollServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>

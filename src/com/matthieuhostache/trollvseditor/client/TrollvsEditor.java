@@ -2,24 +2,12 @@ package com.matthieuhostache.trollvseditor.client;
 
 import java.util.ArrayList;
 
-import com.matthieuhostache.trollvseditor.shared.FieldVerifier;
 import com.matthieuhostache.trollvseditor.shared.Troll;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
-import com.google.gwt.event.dom.client.ClickEvent;
-import com.google.gwt.event.dom.client.ClickHandler;
-import com.google.gwt.event.dom.client.KeyCodes;
-import com.google.gwt.event.dom.client.KeyUpEvent;
-import com.google.gwt.event.dom.client.KeyUpHandler;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
-import com.google.gwt.user.client.ui.Button;
-import com.google.gwt.user.client.ui.DialogBox;
-import com.google.gwt.user.client.ui.HTML;
-import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
-import com.google.gwt.user.client.ui.TextBox;
-import com.google.gwt.user.client.ui.VerticalPanel;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
@@ -36,8 +24,8 @@ public class TrollvsEditor implements EntryPoint {
 	/**
 	 * Create a remote service proxy to talk to the server-side Greeting service.
 	 */
-	private final GreetingServiceAsync greetingService = GWT
-			.create(GreetingService.class);
+	private final TrollServiceAsync greetingService = GWT
+			.create(TrollService.class);
 	
 	private EditorView mainEditor = new EditorView();
 	
@@ -59,7 +47,7 @@ public class TrollvsEditor implements EntryPoint {
 	}
 	
 	public void sendTrollsInfosToServer(ArrayList<Troll> trollList) {
-		greetingService.greetServer(trollList,new AsyncCallback<String>() {
+		greetingService.saveTrolls(trollList,new AsyncCallback<String>() {
 			public void onFailure(Throwable caught) {
 				Window.alert("Remote Procedure Call - Failure");
 				Window.alert(SERVER_ERROR);
