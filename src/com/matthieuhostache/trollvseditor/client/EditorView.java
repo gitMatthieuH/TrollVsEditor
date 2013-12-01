@@ -58,13 +58,6 @@ public class EditorView extends Composite {
 	interface EditorViewUiBinder extends UiBinder<Widget, EditorView> {
 	}
 	
-	
-	public EditorView() {
-		initWidget(uiBinder.createAndBindUi(this));
-		tabPanel.selectTab(0);
-		initTable();
-	}
-
 	@UiField FormPanel formPanel;
 	@UiField TextBox name;
 	@UiField IntegerBox attaque;
@@ -95,6 +88,15 @@ public class EditorView extends Composite {
 	@UiField Button delBtn;
 	@UiField VerticalPanel facesContener;
 
+	/**
+	 * Constructeur du binder
+	 */
+	public EditorView() {
+		initWidget(uiBinder.createAndBindUi(this));
+		tabPanel.selectTab(0);
+		initTable();
+	}
+	
 	public EditorView(String firstName) {
 		initWidget(uiBinder.createAndBindUi(this));
 		//savetrolls.setText(firstName);
@@ -103,34 +105,48 @@ public class EditorView extends Composite {
 		
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur le bouton ajouter de l'onglet editeur de troll
+	 * @param event
+	 */
 	@UiHandler("addtroll")
 	void onAddtrollsClick(ClickEvent event) {
 		Troll trollToS = new Troll(name.getValue(),race.getSelectedIndex(),attaque.getValue(),degats.getValue(),esquive.getValue(),regeneration.getValue(),pointdevie.getValue(),compet1.getValue(),compet2.getValue());
 		trollList.add(trollToS);
 		trollsToAdd.addItem(trollToS.getNom());
 	}
-
+	
+	
+	/**
+	 * Déclencheur de l'évenement au clique sur le bouton sauvegarder de l'onglet editeur de troll
+	 * @param event
+	 */
 	@UiHandler("savetrolls")
 	void onSavetrollsClick(ClickEvent event) {
 		System.out.println("onSavetrollsClick ");
 		System.out.println("elemOnEdit "+this.elemOnEdit);
 		if (elemOnEdit != -1) {
-			System.out.println("if ");
-			System.out.println("esquive " + esquive.getValue());
 			Troll trollToSave = new Troll(name.getValue(),race.getSelectedIndex(),attaque.getValue(),degats.getValue(),esquive.getValue(),regeneration.getValue(),pointdevie.getValue(),compet1.getValue(),compet2.getValue());
-			System.out.println("esquive 2 " + trollToSave.getEsquive());
 			this.trollList.set(elemOnEdit, trollToSave);
-			
 		}
 		formPanel.submit();
 	}
 	
+	
+	/**
+	 * Envoi du formulaire édition/ajout d'une liste de trolls de l'onglet editeur de troll
+	 * @param event
+	 */
 	@UiHandler("formPanel")
 	void onFormPanelSubmit(SubmitEvent event) {
 		TrollvsEditor.get().sendTrollsInfosToServer(this.trollList);
 		
 	}
 
+	/**
+	 * Déclencheur de l'évenement au clique sur - de l'attribut attaque
+	 * @param event
+	 */
 	@UiHandler("attaquem")
 	void onAttaquemClick(ClickEvent event) {
 		if(this.caracPoints>0 && attaque.getValue()>0) {
@@ -140,6 +156,10 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur - de l'attribut attaque
+	 * @param event
+	 */
 	@UiHandler("attaquep")
 	void onAttaquepClick(ClickEvent event) {
 		if(this.caracPoints<50) {
@@ -149,6 +169,10 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur - de l'attribut degats
+	 * @param event
+	 */
 	@UiHandler("degatsm")
 	void onDegatsClick(ClickEvent event) {
 		if(this.caracPoints>0 && degats.getValue()>0) {
@@ -158,6 +182,10 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur + de l'attribut degats
+	 * @param event
+	 */
 	@UiHandler("degatsp")
 	void onDegatspClick(ClickEvent event) {
 		if(this.caracPoints<50) {
@@ -167,6 +195,10 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur - de l'attribut esquive
+	 * @param event
+	 */
 	@UiHandler("esquivem")
 	void onEsquivemClick(ClickEvent event) {
 		if(this.caracPoints>0 && esquive.getValue()>0) {
@@ -176,6 +208,10 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur + de l'attribut esquive
+	 * @param event
+	 */
 	@UiHandler("esquivep")
 	void onEsquivepClick(ClickEvent event) {
 		if(this.caracPoints<50) {
@@ -185,6 +221,10 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur - de l'attribut regeneration
+	 * @param event
+	 */
 	@UiHandler("regenerationm")
 	void onRegenerationmClick(ClickEvent event) {
 		if(this.caracPoints>0 && regeneration.getValue()>0) {
@@ -193,6 +233,10 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur + de l'attribut regeneration
+	 * @param event
+	 */
 	@UiHandler("regenerationp")
 	void onRegenerationpClick(ClickEvent event) {
 		if(this.caracPoints<50) {
@@ -202,6 +246,10 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur - de l'attribut point de vie
+	 * @param event
+	 */
 	@UiHandler("pointdeviem")
 	void onPointdeviemClick(ClickEvent event) {
 		if(this.caracPoints>0 && pointdevie.getValue()>0) {
@@ -211,6 +259,10 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur + de l'attribut point de vie
+	 * @param event
+	 */
 	@UiHandler("pointdeviep")
 	void onPointdeviepClick(ClickEvent event) {
 		if(this.caracPoints<50) {
@@ -220,6 +272,10 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur - de l'attribut competence 1
+	 * @param event
+	 */
 	@UiHandler("compet1m")
 	void onCompet1mClick(ClickEvent event) {
 		if(this.caracSpePoints>0 && compet1.getValue()>0) {
@@ -229,6 +285,10 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur + de l'attribut competence 1
+	 * @param event
+	 */
 	@UiHandler("compet1p")
 	void onCompet1pClick(ClickEvent event) {
 		if(this.caracSpePoints<20) {
@@ -238,6 +298,10 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur - de l'attribut competence 2
+	 * @param event
+	 */
 	@UiHandler("compet2m")
 	void onCompet2mClick(ClickEvent event) {
 		if(this.caracSpePoints>0 && compet2.getValue()>0) {
@@ -247,6 +311,10 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au clique sur + de l'attribut competence 2
+	 * @param event
+	 */
 	@UiHandler("compet2p")
 	void onCompet2pClick(ClickEvent event) {
 		if(this.caracSpePoints<20) {
@@ -256,18 +324,25 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au changement de l'attribut race
+	 * @param event
+	 */
 	@UiHandler("race")
 	void onRaceChange(ChangeEvent event) {
 		String picUrl;
 		pic.setUrl(getUrlRace(race.getSelectedIndex()));
 	}
 	
+	/**
+	 * Fonction qui retourne le chemin de l'image d'une race en foncion de l'id de la race
+	 * @param event
+	 */
 	public String getUrlRace(int index) {
 		String picUrl;
 		
 		switch (index)
 		{
-			
 		  case 0:
 			  picUrl = "img/hebus.jpg";
 			  compet1name.setText("Botte Secrète");
@@ -298,9 +373,14 @@ public class EditorView extends Composite {
 			  compet1name.setText("Botte Secrète");
 			  compet2name.setText("Hypnotisme");
 		}
-		return picUrl;
+		return GWT.getHostPageBaseURL() + picUrl;
 	}
 	
+	
+	/**
+	 * Fonction qui retourne le nom de la race d'une race en foncion de l'id de la race
+	 * @param event
+	 */
 	public String getNameRace(int index) {
 		String name;
 		
@@ -311,28 +391,27 @@ public class EditorView extends Composite {
 			  name = "Skrim";
 		    break;
 		  case 1:
-			  name = "img/tinette.jpg";
+			  name = "Kastar";
 		    break;
 		  case 2:
-			  name = "img/trollf.jpg";
+			  name = "Durakuir";
 		    break;
 		  case 3:
-			  name = "img/waha.jpg";
+			  name = "Tomawak";
 			  break;
 		  case 5:
-			  name = "img/tetram.jpg";
+			  name = "Darkling";
 			  break;
 		  default:
-			  name = "img/tetram.jpg";
+			  name = "Skrim";
 		}
 		return name;
 	}
 	
 	
-	@UiHandler("addtroll")
-	void onAddtrollClick(ClickEvent event) {
-	}
-	
+	/**
+	 * Fonction de création des entêtes des colonnes du tableau présent dans l'onglet listing des trolls
+	 */
 	public void initTable() {
 		TextColumn<Troll> nameColumn = new TextColumn<Troll>() {
 		      @Override
@@ -409,6 +488,13 @@ public class EditorView extends Composite {
 		    cellTable.addColumn(competence2Column, "Compétence 2");
 	}
 	
+	
+	
+	/**
+	 * Fonction qui récupère les trolls sauvegardés côté serveur et met
+	 * en forme en fonction de l'onglet fournit en paramètre
+	 * @param tabIndex
+	 */
 	public void getTrollsInfosFromServer(final int tabIndex) {
 		greetingService.greetServer("", new AsyncCallback<ArrayList<Troll>>() {
 			@Override
@@ -421,24 +507,21 @@ public class EditorView extends Composite {
 					listTrolls.addItem(troll.getNom());
 				}
 				
-				System.out.println("index : "+tabIndex);
-				
 				switch (tabIndex)
 				{
-					
+					// Onglet liste des trolls
 				  case 1:
 					dataProvider = new ListDataProvider<Troll>();    
 					dataProvider.addDataDisplay(cellTable);
 
 					List<Troll> list = dataProvider.getList();
 					list.add(trollList.get(0));
-					initWidget(cellTable);
 					break;
+					// Onglet chasseur de tête
 				  case 2:
 					  double nbColumns = 6;
 					  int nbRows = (int) Math.ceil(result.size()/nbColumns);
 					  System.out.print("nbRows :" + nbRows);
-				      // Create a grid
 				      Grid grid = new Grid(nbRows, (int)nbColumns);
 				      facesContener.clear();
 					  facesContener.add(grid);
@@ -453,6 +536,7 @@ public class EditorView extends Composite {
 							image.setAltText("Nom : "+ result.get(idTroll).getNom());
 							image.addClickHandler(new ClickHandler() {
 							  @Override
+							  /* Au clique sur l'image */
 							  public void onClick(ClickEvent event) {
 								  PopupPanel popup = new PopupPanel(true);
 								  VerticalPanel vp = new VerticalPanel();
@@ -461,6 +545,7 @@ public class EditorView extends Composite {
 								  vp.add(new HTML(displayTroll(troll)));
 								  vp.add(hp);
 								  Button editBtn = new Button("Editer");
+								  /* Au clique  sur bouton edition du popup */
 								  editBtn.addClickHandler(new ClickHandler() {
 									 @Override
 									 public void onClick(ClickEvent event) {
@@ -477,11 +562,28 @@ public class EditorView extends Composite {
 										trollsToAdd.setSelectedIndex(0);
 										int idInTrollList = currentTrollsId.get(trollsToAdd.getSelectedIndex());
 										initEditor(idInTrollList);
-										elemOnEdit = trollsToAdd.getSelectedIndex();
+										elemOnEdit = listTrolls.getSelectedIndex();
 									 }
 								  });
-								  
 								  Button delBtn = new Button("Supprimer");
+								  /* Au clique  sur bouton suppression du popup */
+								  delBtn.addClickHandler(new ClickHandler() {
+									 @Override
+									 public void onClick(ClickEvent event) {	 
+										 String name = troll.getNom();
+										 greetingService.delTroll(name, new AsyncCallback<String>(){
+											@Override
+											public void onSuccess(String result) {
+												getTrollsInfosFromServer(2);
+											}
+											
+											@Override
+											public void onFailure(Throwable caught) {
+												
+											}
+										 });
+									 }
+								  });
 								  hp.add(editBtn);
 								  hp.add(delBtn);
 								  popup.center();
@@ -494,10 +596,6 @@ public class EditorView extends Composite {
 				      }
 				  default:
 				}
-						
-				
-			   
-				
 			}
 			
 			@Override
@@ -509,6 +607,10 @@ public class EditorView extends Composite {
 		
 	}
 	
+	/**
+	 * Déclencheur de l'évenement au changement d'onglet
+	 * @param event
+	 */
 	@UiHandler("tabPanel")
 	void onTabSelection(SelectionEvent<Integer> event) {
 		System.out.println("tab "+event.getSelectedItem());
@@ -527,15 +629,20 @@ public class EditorView extends Composite {
 	}
 	
 	
-	
+	/**
+	 * Déclencheur de l'évenement au clique sur le bouton editer de l'onglet listings des trolls
+	 * @param event
+	 */
 	@UiHandler("editBn")
 	void onEditBnClick(ClickEvent event) {
 		if (listTrolls.getSelectedIndex() != -1) {
 			int trollIndex = listTrolls.getSelectedIndex();
+			System.out.println("trollIndex : " + trollIndex);
 			tabPanel.selectTab(0);
 			ArrayList<Troll> currentsTrolls = new ArrayList<Troll>();
 			currentsTrolls.clear();
 			currentsTrolls.add(trollList.get(trollIndex));
+			System.out.println("trollList.get(trollIndex) : " + trollList.get(trollIndex));
 			currentTrollsId.clear();
 			currentTrollsId.add(trollIndex);
 			trollsToAdd.clear();
@@ -545,21 +652,29 @@ public class EditorView extends Composite {
 			trollsToAdd.setSelectedIndex(0);
 			int idInTrollList = currentTrollsId.get(trollsToAdd.getSelectedIndex());
 			initEditor(idInTrollList);
-			elemOnEdit = trollsToAdd.getSelectedIndex();
+			elemOnEdit = listTrolls.getSelectedIndex();
 		}
 	}
 	
 	
-	
+	/**
+	 * Déclencheur de l'évenement au clique sur le bouton supprimer de l'onglet listings des trolls
+	 * @param event
+	 */
 	@UiHandler("delBtn")
 	void onDelBtnClick(ClickEvent event) {
 		if (listTrolls.getSelectedIndex() != -1) {
 			int trollIndex = listTrolls.getSelectedIndex();
+			System.out.println("trollIndex : " + trollIndex);
 			String name = trollList.get(trollIndex).getNom();
+			System.out.println("name client : " + name);
 			greetingService.delTroll(name, new AsyncCallback<String>(){
 				@Override
 				public void onSuccess(String result) {
-					
+					getTrollsInfosFromServer(1);
+					  listTrolls.clear();
+					  dataProvider.refresh();
+					  initEditor(); 
 				}
 				
 				@Override
@@ -570,6 +685,9 @@ public class EditorView extends Composite {
 		}
 	}
 	
+	/**
+	 * Initaliser l'éditeur de trol
+	 */
 	void initEditor() {
 		name.setValue("");
 		race.setSelectedIndex(0);
@@ -581,6 +699,10 @@ public class EditorView extends Composite {
 		compet2.setValue(0);
 	}
 	
+	/**
+	 * Initaliser l'éditeur de troll avec les infos du troll selectionné
+	 * @param trollId
+	 */
 	void initEditor(int trollId) {
 		Troll currentTroll = trollList.get(trollId);
 		name.setValue(currentTroll.getNom());
@@ -592,6 +714,11 @@ public class EditorView extends Composite {
 		compet1.setValue(currentTroll.getCompetence1());
 		compet2.setValue(currentTroll.getCompetence2());
 	}
+	
+	/**
+	 * Déclencheur de l'évenement au clique sur troll a éditer de l'onglet editeur de troll
+	 * @param event
+	 */
 	@UiHandler("trollsToAdd")
 	void onTrollsToAddClick(ClickEvent event) {
 		int idInTrollList = currentTrollsId.get(trollsToAdd.getSelectedIndex());
@@ -600,19 +727,28 @@ public class EditorView extends Composite {
 	}
 	
 	
-	
+	/**
+	 * Déclencheur de l'évenement à la selection d'un troll de l'onglet listing des trolls
+	 * @param event
+	 */
 	@UiHandler("listTrolls")
 	void onListTrollsClick(ClickEvent event) {
 		int trollIndex = listTrolls.getSelectedIndex();
+		/* Modification des données du tableau en fonction du troll selectionné */
 		dataProvider.refresh();
 		dataProvider = new ListDataProvider<Troll>();    
 		dataProvider.addDataDisplay(cellTable);
 
 		List<Troll> list = dataProvider.getList();
 		list.add(trollList.get(trollIndex));
-		initWidget(cellTable);
 	}
 	
+	/**
+	 * Fonction qui retourne les information au format html 
+	 * en fonction du troll passé en paramètre
+	 * @param troll
+	 * @return
+	 */
 	String displayTroll(Troll troll) {
 		String nom = troll.getNom();
 		String race = getNameRace(troll.getRace());

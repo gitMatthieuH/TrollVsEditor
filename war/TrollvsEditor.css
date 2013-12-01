@@ -2,6 +2,9 @@
 
 
 /** Example rules used by the template application (remove for your app) */
+
+
+
 h1 {
   font-size: 2em;
   font-weight: bold;
@@ -18,6 +21,10 @@ h1 {
 /** Most GWT widgets already have a style name defined */
 .gwt-DialogBox {
   width: 400px;
+}
+
+body{
+  background-color:#22252B;
 }
 
 .dialogVPanel {
